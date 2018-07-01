@@ -1,0 +1,8 @@
+-c --cpu Cortex-M0 -D__RTX -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99
+-IC:\Users\du\Desktop\FT810\RTE\_Template
+-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include
+-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS\RTX\INC
+-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver
+-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include
+-D__UVISION_VERSION="522" -D_RTE_
+-o .\obj\ft_esd_bitmapinfo.o --omf_browse .\obj\ft_esd_bitmapinfo.crf --depend .\obj\ft_esd_bitmapinfo.d "user\FT_Esd_Framework\Ft_Esd_BitmapInfo.c"

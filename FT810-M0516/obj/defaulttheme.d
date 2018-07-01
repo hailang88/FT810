@@ -1,0 +1,17 @@
+.\obj\defaulttheme.o: user\page\DefaultTheme.c
+.\obj\defaulttheme.o: user\page\DefaultTheme.h
+.\obj\defaulttheme.o: .\user\HAL\FT_DataTypes.h
+.\obj\defaulttheme.o: .\user\FT_Esd_Framework\Ft_Esd_Theme.h
+.\obj\defaulttheme.o: .\user\FT_Esd_Framework\Ft_Esd.h
+.\obj\defaulttheme.o: .\user\HAL\FT_Platform.h
+.\obj\defaulttheme.o: .\user\FT_Esd_Framework\Ft_Esd.h
+.\obj\defaulttheme.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\defaulttheme.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\defaulttheme.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\defaulttheme.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\obj\defaulttheme.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\defaulttheme.o: .\user\HAL\FT_Gpu_Hal.h
+.\obj\defaulttheme.o: .\user\HAL\FT_Gpu.h
+.\obj\defaulttheme.o: .\user\HAL\FT_Platform.h
+.\obj\defaulttheme.o: .\user\HAL\FT_CoPro_Cmds.h
+.\obj\defaulttheme.o: .\user\HAL\FT_Hal_Utils.h

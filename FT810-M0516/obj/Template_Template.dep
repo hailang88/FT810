@@ -1,0 +1,761 @@
+Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
+F (.\user\main.c)(0x5A45FE5C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582539DE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\system_M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\sys.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\clk.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\adc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\ebi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\fmc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\gpio.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\i2c.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\pwm.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\spi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\timer.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wwdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\uart.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\hdiv.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\acmp.h)(0x55C8476C)
+I (.\user\page\App.h)(0x5A45F277)
+I (.\user\page\AppScreen.h)(0x5A45F277)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Widget.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\FT_Esd_Math.h)(0x59C4CF7A)
+I (.\user\page\MainPage.h)(0x5A45F1FF)
+I (.\user\FT_Esd_Widgets\Ft_Esd_Label.h)(0x5A45F1FF)
+I (.\user\FT_Esd_Widgets\Ft_Esd_DefaultTheme.h)(0x57A7E8D6)
+I (.\user\FT_Esd_Framework\FT_Esd_Theme.h)(0x5A44DCD7)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Display.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Fixed.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Linear.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Stretch.h)(0x5A45F1F9)
+I (.\user\FT_Esd_Widgets\Ft_Esd_PushButton.h)(0x5A45F1FE)
+I (.\user\FT_Esd_Framework\Ft_Esd_TouchTag.h)(0x59929A10)
+F (.\user\FT_Esd_Framework\Ft_Esd_Theme.c)(0x5A44E861)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_theme.o --omf_browse .\obj\ft_esd_theme.crf --depend .\obj\ft_esd_theme.d)
+I (.\user\FT_Esd_Widgets\FT_Esd_DefaultTheme.h)(0x57A7E8D6)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\FT_Esd_Framework\FT_Esd_Theme.h)(0x5A44DCD7)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Framework\FT_Esd_App.c)(0x5A45FF71)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_app.o --omf_browse .\obj\ft_esd_app.crf --depend .\obj\ft_esd_app.d)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd_GpuAlloc.h)(0x59240ADE)
+F (.\user\FT_Esd_Framework\FT_Esd_MainLoop.c)(0x5A44F74D)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_mainloop.o --omf_browse .\obj\ft_esd_mainloop.crf --depend .\obj\ft_esd_mainloop.d)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\FT_Esd_Dl.h)(0x5A44DD59)
+I (user\FT_Esd_Framework\Ft_Esd_BitmapInfo.h)(0x5A44E084)
+I (user\FT_Esd_Framework\Ft_Esd_GpuAlloc.h)(0x59240ADE)
+I (user\FT_Esd_Framework\Ft_Esd_Math.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd_TouchTag.h)(0x59929A10)
+I (user\FT_Esd_Framework\Ft_Esd_CoCmd.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Framework\Ft_Esd_CoCmd.c)(0x59C4CF7A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_cocmd.o --omf_browse .\obj\ft_esd_cocmd.crf --depend .\obj\ft_esd_cocmd.d)
+I (user\FT_Esd_Framework\Ft_Esd_CoCmd.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd_Math.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Framework\FT_Esd_Dl.c)(0x5A45F9FD)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_dl.o --omf_browse .\obj\ft_esd_dl.crf --depend .\obj\ft_esd_dl.d)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\FT_Esd_Dl.h)(0x5A44DD59)
+I (user\FT_Esd_Framework\Ft_Esd_BitmapInfo.h)(0x5A44E084)
+I (user\FT_Esd_Framework\Ft_Esd_GpuAlloc.h)(0x59240ADE)
+I (user\FT_Esd_Framework\Ft_Esd_Math.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Framework\Ft_Esd_Timer.c)(0x5A45F8E2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_timer.o --omf_browse .\obj\ft_esd_timer.crf --depend .\obj\ft_esd_timer.d)
+I (user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd_Timer.h)(0x5A45F1FA)
+F (.\user\FT_Esd_Framework\Ft_Esd_Widget.c)(0x5A45ED78)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_widget.o --omf_browse .\obj\ft_esd_widget.crf --depend .\obj\ft_esd_widget.d)
+I (user\FT_Esd_Framework\Ft_Esd_Widget.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\FT_Esd_Math.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd_Dl.h)(0x5A44DD59)
+I (user\FT_Esd_Framework\Ft_Esd_BitmapInfo.h)(0x5A44E084)
+I (user\FT_Esd_Framework\Ft_Esd_GpuAlloc.h)(0x59240ADE)
+F (.\user\FT_Esd_Framework\Ft_Esd_TouchTag.c)(0x5A45B354)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_touchtag.o --omf_browse .\obj\ft_esd_touchtag.crf --depend .\obj\ft_esd_touchtag.d)
+I (user\FT_Esd_Framework\Ft_Esd_TouchTag.h)(0x59929A10)
+I (user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Framework\Ft_Esd_Math.c)(0x5A4601C6)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_math.o --omf_browse .\obj\ft_esd_math.crf --depend .\obj\ft_esd_math.d)
+I (user\FT_Esd_Framework\Ft_Esd_Math.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Framework\Ft_Esd.c)(0x5A44F1F6)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd.o --omf_browse .\obj\ft_esd.crf --depend .\obj\ft_esd.d)
+I (user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Framework\Ft_Esd_Layout_Switch.c)(0x5A44F21C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_layout_switch.o --omf_browse .\obj\ft_esd_layout_switch.crf --depend .\obj\ft_esd_layout_switch.d)
+I (user\FT_Esd_Framework\Ft_Esd_Layout_Switch.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd_Widget.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\FT_Esd_Math.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Framework\Ft_Esd_Layout_Fixed.c)(0x59C4CF7A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_layout_fixed.o --omf_browse .\obj\ft_esd_layout_fixed.crf --depend .\obj\ft_esd_layout_fixed.d)
+I (user\FT_Esd_Framework\Ft_Esd_Layout_Fixed.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd_Widget.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\FT_Esd_Math.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Framework\Ft_Esd_Layout_Display.c)(0x5A44F331)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_layout_display.o --omf_browse .\obj\ft_esd_layout_display.crf --depend .\obj\ft_esd_layout_display.d)
+I (user\FT_Esd_Framework\Ft_Esd_Layout_Display.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd_Widget.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\FT_Esd_Math.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Framework\Ft_Esd_Layout_Linear.c)(0x59C4CF7A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_layout_linear.o --omf_browse .\obj\ft_esd_layout_linear.crf --depend .\obj\ft_esd_layout_linear.d)
+I (user\FT_Esd_Framework\Ft_Esd_Layout_Linear.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd_Widget.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\FT_Esd_Math.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd_Layout_Stretch.h)(0x5A45F1F9)
+F (.\user\FT_Esd_Framework\Ft_Esd_Layout_Stretch__Generated.c)(0x5A45F1F9)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_layout_stretch__generated.o --omf_browse .\obj\ft_esd_layout_stretch__generated.crf --depend .\obj\ft_esd_layout_stretch__generated.d)
+I (user\FT_Esd_Framework\Ft_Esd_Layout_Stretch.h)(0x5A45F1F9)
+I (user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd_Widget.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\FT_Esd_Math.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Widgets\Ft_Esd_Label__Generated.c)(0x5A45F1FF)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_label__generated.o --omf_browse .\obj\ft_esd_label__generated.crf --depend .\obj\ft_esd_label__generated.d)
+I (user\FT_Esd_Widgets\Ft_Esd_Label.h)(0x5A45F1FF)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Widgets\Ft_Esd_DefaultTheme.h)(0x57A7E8D6)
+I (.\user\FT_Esd_Framework\FT_Esd_Theme.h)(0x5A44DCD7)
+I (.\user\FT_Esd_Framework\Ft_Esd_Math.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Widget.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\FT_Esd_Dl.h)(0x5A44DD59)
+I (.\user\FT_Esd_Framework\Ft_Esd_BitmapInfo.h)(0x5A44E084)
+I (.\user\FT_Esd_Framework\Ft_Esd_GpuAlloc.h)(0x59240ADE)
+I (.\user\FT_Esd_Framework\Ft_Esd_CoCmd.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Widgets\Ft_Esd_Theme_DarkOrange.c)(0x5A45F1FD)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_theme_darkorange.o --omf_browse .\obj\ft_esd_theme_darkorange.crf --depend .\obj\ft_esd_theme_darkorange.d)
+I (user\FT_Esd_Widgets\Ft_Esd_Theme_DarkOrange.h)(0x5A45F1FD)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\FT_Esd_Framework\Ft_Esd_Theme.h)(0x5A44DCD7)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Widgets\Ft_Esd_Theme_LightBlue.c)(0x5A45F1FE)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_theme_lightblue.o --omf_browse .\obj\ft_esd_theme_lightblue.crf --depend .\obj\ft_esd_theme_lightblue.d)
+I (user\FT_Esd_Widgets\Ft_Esd_Theme_LightBlue.h)(0x5A45F1FE)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\FT_Esd_Framework\Ft_Esd_Theme.h)(0x5A44DCD7)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Framework\Ft_Esd_GpuAlloc.c)(0x5992C778)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_gpualloc.o --omf_browse .\obj\ft_esd_gpualloc.crf --depend .\obj\ft_esd_gpualloc.d)
+I (user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Framework\Ft_Esd_GpuAlloc.h)(0x59240ADE)
+F (.\user\FT_Esd_Widgets\Ft_Esd_LabelButton__Generated.c)(0x5A45F1FF)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_labelbutton__generated.o --omf_browse .\obj\ft_esd_labelbutton__generated.crf --depend .\obj\ft_esd_labelbutton__generated.d)
+I (user\FT_Esd_Widgets\Ft_Esd_LabelButton.h)(0x5A45F1FF)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Widgets\Ft_Esd_DefaultTheme.h)(0x57A7E8D6)
+I (.\user\FT_Esd_Framework\FT_Esd_Theme.h)(0x5A44DCD7)
+I (.\user\FT_Esd_Framework\Ft_Esd_Math.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_TouchTag.h)(0x59929A10)
+I (.\user\FT_Esd_Framework\Ft_Esd_Widget.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\FT_Esd_Dl.h)(0x5A44DD59)
+I (.\user\FT_Esd_Framework\Ft_Esd_BitmapInfo.h)(0x5A44E084)
+I (.\user\FT_Esd_Framework\Ft_Esd_GpuAlloc.h)(0x59240ADE)
+I (.\user\FT_Esd_Framework\Ft_Esd_CoCmd.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Widgets\Ft_Esd_LabelButton.c)(0x59929A10)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_labelbutton.o --omf_browse .\obj\ft_esd_labelbutton.crf --depend .\obj\ft_esd_labelbutton.d)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Widgets\Ft_Esd_LabelButton.h)(0x5A45F1FF)
+I (user\FT_Esd_Widgets\Ft_Esd_DefaultTheme.h)(0x57A7E8D6)
+I (.\user\FT_Esd_Framework\FT_Esd_Theme.h)(0x5A44DCD7)
+I (.\user\FT_Esd_Framework\Ft_Esd_Math.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_TouchTag.h)(0x59929A10)
+I (.\user\FT_Esd_Framework\Ft_Esd_Widget.h)(0x59C4CF7A)
+F (.\user\FT_Esd_Widgets\Ft_Esd_PushButton__Generated.c)(0x5A45F1FE)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_esd_pushbutton__generated.o --omf_browse .\obj\ft_esd_pushbutton__generated.crf --depend .\obj\ft_esd_pushbutton__generated.d)
+I (user\FT_Esd_Widgets\Ft_Esd_PushButton.h)(0x5A45F1FE)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (user\FT_Esd_Widgets\Ft_Esd_DefaultTheme.h)(0x57A7E8D6)
+I (.\user\FT_Esd_Framework\FT_Esd_Theme.h)(0x5A44DCD7)
+I (.\user\FT_Esd_Framework\Ft_Esd_Math.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_TouchTag.h)(0x59929A10)
+I (.\user\FT_Esd_Framework\Ft_Esd_Widget.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\FT_Esd_Dl.h)(0x5A44DD59)
+I (.\user\FT_Esd_Framework\Ft_Esd_BitmapInfo.h)(0x5A44E084)
+I (.\user\FT_Esd_Framework\Ft_Esd_GpuAlloc.h)(0x59240ADE)
+I (.\user\FT_Esd_Framework\Ft_Esd_CoCmd.h)(0x59C4CF7A)
+F (.\user\page\App__Generated.c)(0x5A45F451)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\app__generated.o --omf_browse .\obj\app__generated.crf --depend .\obj\app__generated.d)
+I (user\page\App.h)(0x5A45F277)
+I (user\page\AppScreen.h)(0x5A45F277)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Widget.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\FT_Esd_Math.h)(0x59C4CF7A)
+I (user\page\MainPage.h)(0x5A45F1FF)
+I (.\user\FT_Esd_Widgets\Ft_Esd_Label.h)(0x5A45F1FF)
+I (.\user\FT_Esd_Widgets\Ft_Esd_DefaultTheme.h)(0x57A7E8D6)
+I (.\user\FT_Esd_Framework\FT_Esd_Theme.h)(0x5A44DCD7)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Display.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Fixed.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Linear.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Stretch.h)(0x5A45F1F9)
+I (.\user\FT_Esd_Widgets\Ft_Esd_PushButton.h)(0x5A45F1FE)
+I (.\user\FT_Esd_Framework\Ft_Esd_TouchTag.h)(0x59929A10)
+F (.\user\page\AppScreen__Generated.c)(0x5A46039D)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\appscreen__generated.o --omf_browse .\obj\appscreen__generated.crf --depend .\obj\appscreen__generated.d)
+I (user\page\AppScreen.h)(0x5A45F277)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Widget.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\FT_Esd_Math.h)(0x59C4CF7A)
+I (user\page\MainPage.h)(0x5A45F1FF)
+I (.\user\FT_Esd_Widgets\Ft_Esd_Label.h)(0x5A45F1FF)
+I (.\user\FT_Esd_Widgets\Ft_Esd_DefaultTheme.h)(0x57A7E8D6)
+I (.\user\FT_Esd_Framework\FT_Esd_Theme.h)(0x5A44DCD7)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Display.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Fixed.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Linear.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Stretch.h)(0x5A45F1F9)
+I (.\user\FT_Esd_Widgets\Ft_Esd_PushButton.h)(0x5A45F1FE)
+I (.\user\FT_Esd_Framework\Ft_Esd_TouchTag.h)(0x59929A10)
+F (.\user\page\DefaultTheme.c)(0x5A449216)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\defaulttheme.o --omf_browse .\obj\defaulttheme.crf --depend .\obj\defaulttheme.d)
+I (user\page\DefaultTheme.h)(0x5A449216)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\FT_Esd_Framework\Ft_Esd_Theme.h)(0x5A44DCD7)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+F (.\user\page\MainPage__Generated.c)(0x5A45F1FF)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\mainpage__generated.o --omf_browse .\obj\mainpage__generated.crf --depend .\obj\mainpage__generated.d)
+I (user\page\MainPage.h)(0x5A45F1FF)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (.\user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (.\user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (.\user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (.\user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Widgets\Ft_Esd_Label.h)(0x5A45F1FF)
+I (.\user\FT_Esd_Widgets\Ft_Esd_DefaultTheme.h)(0x57A7E8D6)
+I (.\user\FT_Esd_Framework\FT_Esd_Theme.h)(0x5A44DCD7)
+I (.\user\FT_Esd_Framework\Ft_Esd_Math.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Widget.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Display.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Fixed.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Linear.h)(0x59C4CF7A)
+I (.\user\FT_Esd_Framework\Ft_Esd_Layout_Stretch.h)(0x5A45F1F9)
+I (.\user\FT_Esd_Widgets\Ft_Esd_PushButton.h)(0x5A45F1FE)
+I (.\user\FT_Esd_Framework\Ft_Esd_TouchTag.h)(0x59929A10)
+F (.\user\HAL\FT_CoPro_Cmds.c)(0x59C4CF7A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_copro_cmds.o --omf_browse .\obj\ft_copro_cmds.crf --depend .\obj\ft_copro_cmds.d)
+I (user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+F (.\user\HAL\FT_Emu_main.c)(0x5A44A30C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_emu_main.o --omf_browse .\obj\ft_emu_main.crf --depend .\obj\ft_emu_main.d)
+I (user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+F (.\user\HAL\FT_Gpu_Hal.c)(0x5A45FEE2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\ft_gpu_hal.o --omf_browse .\obj\ft_gpu_hal.crf --depend .\obj\ft_gpu_hal.d)
+I (user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (.\user\FT_Esd_Framework\Ft_Esd.h)(0x59C4CF7A)
+I (.\user\HAL\FT_DataTypes.h)(0x5A45FCCB)
+I (.\user\HAL\FT_Platform.h)(0x5A45FE2B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (user\HAL\FT_Gpu_Hal.h)(0x5A44EF8B)
+I (user\HAL\FT_Gpu.h)(0x59C4CF7A)
+I (user\HAL\FT_CoPro_Cmds.h)(0x59C4CF7A)
+I (user\HAL\FT_Hal_Utils.h)(0x59C4CF7A)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\system_M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\sys.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\clk.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\adc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\ebi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\fmc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\gpio.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\i2c.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\pwm.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\spi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\timer.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wwdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\uart.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\hdiv.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\acmp.h)(0x55C8476C)
+F (RTE\Device\M0516LDN\retarget.c)(0x55C8476C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\retarget.o --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582539DE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\system_M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\sys.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\clk.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\adc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\ebi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\fmc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\gpio.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\i2c.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\pwm.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\spi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\timer.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wwdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\uart.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\hdiv.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\acmp.h)(0x55C8476C)
+F (RTE\Device\M0516LDN\startup_M051Series.s)(0x5A46048F)(--cpu Cortex-M0 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include--pd "__UVISION_VERSION SETA 522" --pd "_RTE_ SETA 1"--list .\lst\startup_m051series.lst --xref -o .\obj\startup_m051series.o --depend .\obj\startup_m051series.d)
+F (RTE\Device\M0516LDN\system_M051Series.c)(0x55C8476C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\system_m051series.o --omf_browse .\obj\system_m051series.crf --depend .\obj\system_m051series.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\system_M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\sys.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\clk.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\adc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\ebi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\fmc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\gpio.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\i2c.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\pwm.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\spi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\timer.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wwdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\uart.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\hdiv.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\acmp.h)(0x55C8476C)
+F (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\clk.c)(0x55C8476C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\clk.o --omf_browse .\obj\clk.crf --depend .\obj\clk.d)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582539DE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\system_M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\sys.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\clk.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\adc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\ebi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\fmc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\gpio.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\i2c.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\pwm.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\spi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\timer.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wwdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\uart.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\hdiv.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\acmp.h)(0x55C8476C)
+F (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\fmc.c)(0x55C8476C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\fmc.o --omf_browse .\obj\fmc.crf --depend .\obj\fmc.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582539DE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\system_M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\sys.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\clk.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\adc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\ebi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\fmc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\gpio.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\i2c.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\pwm.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\spi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\timer.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wwdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\uart.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\hdiv.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\acmp.h)(0x55C8476C)
+F (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\gpio.c)(0x55C8476C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582539DE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\system_M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\sys.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\clk.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\adc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\ebi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\fmc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\gpio.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\i2c.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\pwm.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\spi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\timer.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wwdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\uart.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\hdiv.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\acmp.h)(0x55C8476C)
+F (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\spi.c)(0x55C8476C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\spi.o --omf_browse .\obj\spi.crf --depend .\obj\spi.d)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582539DE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\system_M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\sys.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\clk.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\adc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\ebi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\fmc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\gpio.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\i2c.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\pwm.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\spi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\timer.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wwdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\uart.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\hdiv.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\acmp.h)(0x55C8476C)
+F (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\sys.c)(0x55C8476C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\sys.o --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582539DE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\system_M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\sys.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\clk.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\adc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\ebi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\fmc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\gpio.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\i2c.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\pwm.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\spi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\timer.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wwdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\uart.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\hdiv.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\acmp.h)(0x55C8476C)
+F (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\uart.c)(0x55C8476C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M051Series\Include -I ..\..\..\Library\StdDriver\inc -I .\user\FT_Esd_Framework -I .\user\FT_Esd_Widgets -I .\user\page -I .\user\HAL --cpp11    --c99-IC:\Users\du\Desktop\FT810\RTE\_Template-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include-D__UVISION_VERSION="522" -D_RTE_-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h)(0x582539DE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5A3F7462)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582539DE)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Include\system_M051Series.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\sys.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\clk.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\adc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\ebi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\fmc.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\gpio.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\i2c.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\pwm.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\spi.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\timer.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\wwdt.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\uart.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\hdiv.h)(0x55C8476C)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\acmp.h)(0x55C8476C)

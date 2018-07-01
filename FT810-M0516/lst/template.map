@@ -1,0 +1,1185 @@
+Component: ARM Compiler 5.06 update 4 (build 422) Tool: armlink [4d35d2]
+
+==============================================================================
+
+Small function inlining results
+
+Inlined total of 0 calls.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    RESET                                    0x00000000   Section      192  startup_m051series.o(RESET)
+    ../clib/microlib/division.c              0x00000000   Number         0  idiv.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  uldiv.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  uidiv.o ABSOLUTE
+    ../clib/microlib/errno.c                 0x00000000   Number         0  errno.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llsshr.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llushr.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llshl.o ABSOLUTE
+    ../clib/microlib/malloc/malloc.c         0x00000000   Number         0  malloca.o ABSOLUTE
+    ../clib/microlib/malloc/malloc.c         0x00000000   Number         0  mallocr.o ABSOLUTE
+    ../clib/microlib/malloc/malloc.c         0x00000000   Number         0  mallocra.o ABSOLUTE
+    ../clib/microlib/malloc/malloc.c         0x00000000   Number         0  malloc.o ABSOLUTE
+    ../clib/microlib/malloc/mvars.c          0x00000000   Number         0  mvars.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf3.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printfb.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf0.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf1.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf2.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf4.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf5.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf6.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printfa.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf8.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf7.o ABSOLUTE
+    ../clib/microlib/printf/stubs.s          0x00000000   Number         0  stubs.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpyb.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpya.o ABSOLUTE
+    ../clib/microlib/string/memset.c         0x00000000   Number         0  memseta.o ABSOLUTE
+    ../clib/microlib/string/strlen.c         0x00000000   Number         0  strlen.o ABSOLUTE
+    ../clib/microlib/stubs.s                 0x00000000   Number         0  iusefp.o ABSOLUTE
+    ../fplib/microlib/fpadd.c                0x00000000   Number         0  dadd.o ABSOLUTE
+    ../fplib/microlib/fpdiv.c                0x00000000   Number         0  ddiv.o ABSOLUTE
+    ../fplib/microlib/fpepilogue.c           0x00000000   Number         0  depilogue.o ABSOLUTE
+    ../fplib/microlib/fpfix.c                0x00000000   Number         0  dfixi.o ABSOLUTE
+    ../fplib/microlib/fpfix.c                0x00000000   Number         0  dfixul.o ABSOLUTE
+    ../fplib/microlib/fpflt.c                0x00000000   Number         0  dflti.o ABSOLUTE
+    ../fplib/microlib/fpflt.c                0x00000000   Number         0  dfltui.o ABSOLUTE
+    ../fplib/microlib/fpmul.c                0x00000000   Number         0  dmul.o ABSOLUTE
+    ../fplib/microlib/fpscalb.c              0x00000000   Number         0  dscalb.o ABSOLUTE
+    ../fplib/microlib/fpsqrt.c               0x00000000   Number         0  dsqrt.o ABSOLUTE
+    ../mathlib/cos.c                         0x00000000   Number         0  cos.o ABSOLUTE
+    ../mathlib/cos.c                         0x00000000   Number         0  cos_x.o ABSOLUTE
+    ../mathlib/cos_i.c                       0x00000000   Number         0  cos_i.o ABSOLUTE
+    ../mathlib/dunder.c                      0x00000000   Number         0  dunder.o ABSOLUTE
+    ../mathlib/fpclassify.c                  0x00000000   Number         0  fpclassify.o ABSOLUTE
+    ../mathlib/poly.c                        0x00000000   Number         0  poly.o ABSOLUTE
+    ../mathlib/rred.c                        0x00000000   Number         0  rred.o ABSOLUTE
+    ../mathlib/sin.c                         0x00000000   Number         0  sin.o ABSOLUTE
+    ../mathlib/sin.c                         0x00000000   Number         0  sin_x.o ABSOLUTE
+    ../mathlib/sin_i.c                       0x00000000   Number         0  sin_i.o ABSOLUTE
+    ../mathlib/sin_i.c                       0x00000000   Number         0  sin_i_x.o ABSOLUTE
+    ../mathlib/sqrt.c                        0x00000000   Number         0  sqrt.o ABSOLUTE
+    ../mathlib/sqrt.c                        0x00000000   Number         0  sqrt_x.o ABSOLUTE
+    RTE\Device\M0516LDN\retarget.c           0x00000000   Number         0  retarget.o ABSOLUTE
+    RTE\Device\M0516LDN\startup_M051Series.s 0x00000000   Number         0  startup_m051series.o ABSOLUTE
+    RTE\Device\M0516LDN\system_M051Series.c  0x00000000   Number         0  system_m051series.o ABSOLUTE
+    RTE\\Device\\M0516LDN\\retarget.c        0x00000000   Number         0  retarget.o ABSOLUTE
+    RTE\\Device\\M0516LDN\\system_M051Series.c 0x00000000   Number         0  system_m051series.o ABSOLUTE
+    cdcmple.s                                0x00000000   Number         0  cdcmple.o ABSOLUTE
+    cdrcmple.s                               0x00000000   Number         0  cdrcmple.o ABSOLUTE
+    d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\clk.c 0x00000000   Number         0  clk.o ABSOLUTE
+    d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\fmc.c 0x00000000   Number         0  fmc.o ABSOLUTE
+    d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\gpio.c 0x00000000   Number         0  gpio.o ABSOLUTE
+    d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\spi.c 0x00000000   Number         0  spi.o ABSOLUTE
+    d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\sys.c 0x00000000   Number         0  sys.o ABSOLUTE
+    d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M051\Driver\uart.c 0x00000000   Number         0  uart.o ABSOLUTE
+    d:\\Keil_v5\\ARM\\PACK\\Nuvoton\\NuMicro_DFP\\1.1.0\\Device\\M051\\Driver\\clk.c 0x00000000   Number         0  clk.o ABSOLUTE
+    d:\\Keil_v5\\ARM\\PACK\\Nuvoton\\NuMicro_DFP\\1.1.0\\Device\\M051\\Driver\\fmc.c 0x00000000   Number         0  fmc.o ABSOLUTE
+    d:\\Keil_v5\\ARM\\PACK\\Nuvoton\\NuMicro_DFP\\1.1.0\\Device\\M051\\Driver\\gpio.c 0x00000000   Number         0  gpio.o ABSOLUTE
+    d:\\Keil_v5\\ARM\\PACK\\Nuvoton\\NuMicro_DFP\\1.1.0\\Device\\M051\\Driver\\spi.c 0x00000000   Number         0  spi.o ABSOLUTE
+    d:\\Keil_v5\\ARM\\PACK\\Nuvoton\\NuMicro_DFP\\1.1.0\\Device\\M051\\Driver\\sys.c 0x00000000   Number         0  sys.o ABSOLUTE
+    d:\\Keil_v5\\ARM\\PACK\\Nuvoton\\NuMicro_DFP\\1.1.0\\Device\\M051\\Driver\\uart.c 0x00000000   Number         0  uart.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    user\FT_Esd_Framework\FT_Esd_App.c       0x00000000   Number         0  ft_esd_app.o ABSOLUTE
+    user\FT_Esd_Framework\FT_Esd_Dl.c        0x00000000   Number         0  ft_esd_dl.o ABSOLUTE
+    user\FT_Esd_Framework\FT_Esd_MainLoop.c  0x00000000   Number         0  ft_esd_mainloop.o ABSOLUTE
+    user\FT_Esd_Framework\Ft_Esd.c           0x00000000   Number         0  ft_esd.o ABSOLUTE
+    user\FT_Esd_Framework\Ft_Esd_CoCmd.c     0x00000000   Number         0  ft_esd_cocmd.o ABSOLUTE
+    user\FT_Esd_Framework\Ft_Esd_GpuAlloc.c  0x00000000   Number         0  ft_esd_gpualloc.o ABSOLUTE
+    user\FT_Esd_Framework\Ft_Esd_Layout_Display.c 0x00000000   Number         0  ft_esd_layout_display.o ABSOLUTE
+    user\FT_Esd_Framework\Ft_Esd_Layout_Fixed.c 0x00000000   Number         0  ft_esd_layout_fixed.o ABSOLUTE
+    user\FT_Esd_Framework\Ft_Esd_Layout_Linear.c 0x00000000   Number         0  ft_esd_layout_linear.o ABSOLUTE
+    user\FT_Esd_Framework\Ft_Esd_Layout_Stretch__Generated.c 0x00000000   Number         0  ft_esd_layout_stretch__generated.o ABSOLUTE
+    user\FT_Esd_Framework\Ft_Esd_Layout_Switch.c 0x00000000   Number         0  ft_esd_layout_switch.o ABSOLUTE
+    user\FT_Esd_Framework\Ft_Esd_Math.c      0x00000000   Number         0  ft_esd_math.o ABSOLUTE
+    user\FT_Esd_Framework\Ft_Esd_Theme.c     0x00000000   Number         0  ft_esd_theme.o ABSOLUTE
+    user\FT_Esd_Framework\Ft_Esd_Timer.c     0x00000000   Number         0  ft_esd_timer.o ABSOLUTE
+    user\FT_Esd_Framework\Ft_Esd_TouchTag.c  0x00000000   Number         0  ft_esd_touchtag.o ABSOLUTE
+    user\FT_Esd_Framework\Ft_Esd_Widget.c    0x00000000   Number         0  ft_esd_widget.o ABSOLUTE
+    user\FT_Esd_Widgets\Ft_Esd_LabelButton.c 0x00000000   Number         0  ft_esd_labelbutton.o ABSOLUTE
+    user\FT_Esd_Widgets\Ft_Esd_LabelButton__Generated.c 0x00000000   Number         0  ft_esd_labelbutton__generated.o ABSOLUTE
+    user\FT_Esd_Widgets\Ft_Esd_Label__Generated.c 0x00000000   Number         0  ft_esd_label__generated.o ABSOLUTE
+    user\FT_Esd_Widgets\Ft_Esd_PushButton__Generated.c 0x00000000   Number         0  ft_esd_pushbutton__generated.o ABSOLUTE
+    user\FT_Esd_Widgets\Ft_Esd_Theme_DarkOrange.c 0x00000000   Number         0  ft_esd_theme_darkorange.o ABSOLUTE
+    user\FT_Esd_Widgets\Ft_Esd_Theme_LightBlue.c 0x00000000   Number         0  ft_esd_theme_lightblue.o ABSOLUTE
+    user\HAL\FT_CoPro_Cmds.c                 0x00000000   Number         0  ft_copro_cmds.o ABSOLUTE
+    user\HAL\FT_Emu_main.c                   0x00000000   Number         0  ft_emu_main.o ABSOLUTE
+    user\HAL\FT_Gpu_Hal.c                    0x00000000   Number         0  ft_gpu_hal.o ABSOLUTE
+    user\\HAL\\FT_Gpu_Hal.c                  0x00000000   Number         0  ft_gpu_hal.o ABSOLUTE
+    user\\main.c                             0x00000000   Number         0  main.o ABSOLUTE
+    user\main.c                              0x00000000   Number         0  main.o ABSOLUTE
+    user\page\AppScreen__Generated.c         0x00000000   Number         0  appscreen__generated.o ABSOLUTE
+    user\page\App__Generated.c               0x00000000   Number         0  app__generated.o ABSOLUTE
+    user\page\DefaultTheme.c                 0x00000000   Number         0  defaulttheme.o ABSOLUTE
+    user\page\MainPage__Generated.c          0x00000000   Number         0  mainpage__generated.o ABSOLUTE
+    .ARM.Collect$$$$00000000                 0x000000c0   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x000000c0   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x000000c4   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x000000c8   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x000000c8   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x000000c8   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    .ARM.Collect$$$$0000000D                 0x000000d0   Section        0  entry10a.o(.ARM.Collect$$$$0000000D)
+    .ARM.Collect$$$$0000000F                 0x000000d0   Section        0  entry11a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00002712                 0x000000d0   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    __lit__00000000                          0x000000d0   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .emb_text                                0x000000d4   Section       28  retarget.o(.emb_text)
+    .text                                    0x000000f0   Section       76  startup_m051series.o(.text)
+    Default_Handler                          0x0000011b   Thumb Code     2  startup_m051series.o(.text)
+    .text                                    0x0000013c   Section        0  uidiv.o(.text)
+    .text                                    0x00000168   Section        0  idiv.o(.text)
+    .text                                    0x00000190   Section        0  memcpya.o(.text)
+    .text                                    0x000001b4   Section        0  memseta.o(.text)
+    .text                                    0x000001d8   Section        0  strlen.o(.text)
+    .text                                    0x000001e6   Section        0  uldiv.o(.text)
+    .text                                    0x00000246   Section        0  llushr.o(.text)
+    .text                                    0x00000268   Section       36  init.o(.text)
+    .text                                    0x0000028c   Section        0  llshl.o(.text)
+    i.AppScreen_End                          0x000002ac   Section        0  appscreen__generated.o(i.AppScreen_End)
+    i.AppScreen_Start                        0x000002bc   Section        0  appscreen__generated.o(i.AppScreen_Start)
+    i.AppScreen_Update                       0x000002d4   Section        0  appscreen__generated.o(i.AppScreen_Update)
+    i.AppScreen__Initializer                 0x000002f4   Section        0  appscreen__generated.o(i.AppScreen__Initializer)
+    i.AppScreen__Main_Page__Destroy          0x00000324   Section        0  appscreen__generated.o(i.AppScreen__Main_Page__Destroy)
+    i.AppScreen__Main_Page__Initializer      0x0000034e   Section        0  appscreen__generated.o(i.AppScreen__Main_Page__Initializer)
+    i.AppScreen__Main_Page__Validate         0x00000378   Section        0  appscreen__generated.o(i.AppScreen__Main_Page__Validate)
+    i.App_CoPro_Widget_Calibrate             0x0000039c   Section        0  ft_esd_app.o(i.App_CoPro_Widget_Calibrate)
+    i.App_Idle                               0x00000430   Section        0  app__generated.o(i.App_Idle)
+    i.App_Render                             0x00000442   Section        0  app__generated.o(i.App_Render)
+    i.App_Start                              0x00000454   Section        0  app__generated.o(i.App_Start)
+    i.App_Update                             0x0000046a   Section        0  app__generated.o(i.App_Update)
+    i.App__App_Screen__Initializer           0x0000047c   Section        0  app__generated.o(i.App__App_Screen__Initializer)
+    i.App__Initializer                       0x000004c8   Section        0  app__generated.o(i.App__Initializer)
+    i.CLK_EnableModuleClock                  0x000004d4   Section        0  clk.o(i.CLK_EnableModuleClock)
+    i.CLK_EnablePLL                          0x000004f0   Section        0  clk.o(i.CLK_EnablePLL)
+    i.CLK_EnableXtalRC                       0x00000688   Section        0  clk.o(i.CLK_EnableXtalRC)
+    i.CLK_GetHCLKFreq                        0x00000698   Section        0  clk.o(i.CLK_GetHCLKFreq)
+    i.CLK_GetPLLClockFreq                    0x000006a8   Section        0  spi.o(i.CLK_GetPLLClockFreq)
+    CLK_GetPLLClockFreq                      0x000006a9   Thumb Code    70  spi.o(i.CLK_GetPLLClockFreq)
+    i.CLK_SetCoreClock                       0x00000700   Section        0  clk.o(i.CLK_SetCoreClock)
+    i.CLK_SetHCLK                            0x00000778   Section        0  clk.o(i.CLK_SetHCLK)
+    i.CLK_SetModuleClock                     0x000007c4   Section        0  clk.o(i.CLK_SetModuleClock)
+    i.CLK_WaitClockReady                     0x00000814   Section        0  clk.o(i.CLK_WaitClockReady)
+    i.Delay_ms                               0x00000840   Section        0  main.o(i.Delay_ms)
+    i.FT800_BootupConfig                     0x00000874   Section        0  ft_esd_app.o(i.FT800_BootupConfig)
+    i.Ft_Esd_CoCmd_Spinner                   0x00000a60   Section        0  ft_esd_cocmd.o(i.Ft_Esd_CoCmd_Spinner)
+    i.Ft_Esd_CoCmd_Stop                      0x00000a7c   Section        0  ft_esd_cocmd.o(i.Ft_Esd_CoCmd_Stop)
+    i.Ft_Esd_Dl_RomFont_Setup                0x00000aa0   Section        0  ft_esd_dl.o(i.Ft_Esd_Dl_RomFont_Setup)
+    i.Ft_Esd_Dl_TAG                          0x00000b74   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_Dl_TAG)
+    Ft_Esd_Dl_TAG                            0x00000b75   Thumb Code    18  ft_esd_pushbutton__generated.o(i.Ft_Esd_Dl_TAG)
+    i.Ft_Esd_GetHost                         0x00000b8c   Section        0  ft_esd_app.o(i.Ft_Esd_GetHost)
+    i.Ft_Esd_GetMillis                       0x00000b98   Section        0  ft_esd_app.o(i.Ft_Esd_GetMillis)
+    i.Ft_Esd_GpuAlloc_CollapseFree           0x00000ba4   Section        0  ft_esd_gpualloc.o(i.Ft_Esd_GpuAlloc_CollapseFree)
+    i.Ft_Esd_GpuAlloc_FreeId                 0x00000c2e   Section        0  ft_esd_gpualloc.o(i.Ft_Esd_GpuAlloc_FreeId)
+    i.Ft_Esd_GpuAlloc_Reset                  0x00000c56   Section        0  ft_esd_gpualloc.o(i.Ft_Esd_GpuAlloc_Reset)
+    i.Ft_Esd_GpuAlloc_Update                 0x00000c9e   Section        0  ft_esd_gpualloc.o(i.Ft_Esd_GpuAlloc_Update)
+    i.Ft_Esd_InitDlState                     0x00000ce0   Section        0  ft_esd_dl.o(i.Ft_Esd_InitDlState)
+    i.Ft_Esd_InitFontHeight                  0x00000cf0   Section        0  ft_esd_app.o(i.Ft_Esd_InitFontHeight)
+    i.Ft_Esd_Label_AlignX__Default           0x00000d28   Section        0  ft_esd_label__generated.o(i.Ft_Esd_Label_AlignX__Default)
+    i.Ft_Esd_Label_AlignY__Default           0x00000d2c   Section        0  ft_esd_label__generated.o(i.Ft_Esd_Label_AlignY__Default)
+    i.Ft_Esd_Label_Font__Default             0x00000d30   Section        0  ft_esd_label__generated.o(i.Ft_Esd_Label_Font__Default)
+    i.Ft_Esd_Label_Get_Font_Height__return   0x00000d34   Section        0  ft_esd_label__generated.o(i.Ft_Esd_Label_Get_Font_Height__return)
+    Ft_Esd_Label_Get_Font_Height__return     0x00000d35   Thumb Code    18  ft_esd_label__generated.o(i.Ft_Esd_Label_Get_Font_Height__return)
+    i.Ft_Esd_Label_Render                    0x00000d4c   Section        0  ft_esd_label__generated.o(i.Ft_Esd_Label_Render)
+    i.Ft_Esd_Label_Text__Default             0x00000ec8   Section        0  ft_esd_label__generated.o(i.Ft_Esd_Label_Text__Default)
+    i.Ft_Esd_Label_Theme__Default            0x00000ed4   Section        0  ft_esd_label__generated.o(i.Ft_Esd_Label_Theme__Default)
+    i.Ft_Esd_Label_Update                    0x00000edc   Section        0  ft_esd_label__generated.o(i.Ft_Esd_Label_Update)
+    i.Ft_Esd_Label__Initializer              0x00000f00   Section        0  ft_esd_label__generated.o(i.Ft_Esd_Label__Initializer)
+    i.Ft_Esd_Layout_Display_Idle             0x00000f58   Section        0  ft_esd_layout_display.o(i.Ft_Esd_Layout_Display_Idle)
+    i.Ft_Esd_Layout_Display_Render           0x00000f62   Section        0  ft_esd_layout_display.o(i.Ft_Esd_Layout_Display_Render)
+    i.Ft_Esd_Layout_Display_Update           0x00000f6c   Section        0  ft_esd_layout_display.o(i.Ft_Esd_Layout_Display_Update)
+    i.Ft_Esd_Layout_Display__Initializer     0x00000fb0   Section        0  ft_esd_layout_display.o(i.Ft_Esd_Layout_Display__Initializer)
+    i.Ft_Esd_Layout_Fixed_Idle               0x00000fd0   Section        0  ft_esd_layout_fixed.o(i.Ft_Esd_Layout_Fixed_Idle)
+    i.Ft_Esd_Layout_Fixed_Render             0x00000fda   Section        0  ft_esd_layout_fixed.o(i.Ft_Esd_Layout_Fixed_Render)
+    i.Ft_Esd_Layout_Fixed_Update             0x00000fe4   Section        0  ft_esd_layout_fixed.o(i.Ft_Esd_Layout_Fixed_Update)
+    i.Ft_Esd_Layout_Fixed__Initializer       0x0000102c   Section        0  ft_esd_layout_fixed.o(i.Ft_Esd_Layout_Fixed__Initializer)
+    i.Ft_Esd_Layout_Linear_Idle              0x0000104c   Section        0  ft_esd_layout_linear.o(i.Ft_Esd_Layout_Linear_Idle)
+    i.Ft_Esd_Layout_Linear_Render            0x00001066   Section        0  ft_esd_layout_linear.o(i.Ft_Esd_Layout_Linear_Render)
+    i.Ft_Esd_Layout_Linear_Update            0x00001080   Section        0  ft_esd_layout_linear.o(i.Ft_Esd_Layout_Linear_Update)
+    i.Ft_Esd_Layout_Linear__Initializer      0x0000157c   Section        0  ft_esd_layout_linear.o(i.Ft_Esd_Layout_Linear__Initializer)
+    i.Ft_Esd_Layout_Stretch__Initializer     0x000015c4   Section        0  ft_esd_layout_stretch__generated.o(i.Ft_Esd_Layout_Stretch__Initializer)
+    i.Ft_Esd_MainLoop                        0x000015f0   Section        0  ft_esd_mainloop.o(i.Ft_Esd_MainLoop)
+    i.Ft_Esd_Noop                            0x00001770   Section        0  ft_esd.o(i.Ft_Esd_Noop)
+    i.Ft_Esd_PushButton_End                  0x00001772   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_End)
+    i.Ft_Esd_PushButton_Font__Default        0x00001784   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Font__Default)
+    i.Ft_Esd_PushButton_Primary__Default     0x00001788   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Primary__Default)
+    i.Ft_Esd_PushButton_Pushing              0x0000178c   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Pushing)
+    i.Ft_Esd_PushButton_Render               0x00001798   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Render)
+    i.Ft_Esd_PushButton_Start                0x000018b0   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Start)
+    i.Ft_Esd_PushButton_Text__Default        0x000018c4   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Text__Default)
+    i.Ft_Esd_PushButton_Theme__Default       0x000018d0   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Theme__Default)
+    i.Ft_Esd_PushButton_Touch_Tag_Down__Signal 0x000018d8   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Touch_Tag_Down__Signal)
+    Ft_Esd_PushButton_Touch_Tag_Down__Signal 0x000018d9   Thumb Code     8  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Touch_Tag_Down__Signal)
+    i.Ft_Esd_PushButton_Touch_Tag_Tap__Signal 0x000018e0   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Touch_Tag_Tap__Signal)
+    Ft_Esd_PushButton_Touch_Tag_Tap__Signal  0x000018e1   Thumb Code     8  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Touch_Tag_Tap__Signal)
+    i.Ft_Esd_PushButton_Touch_Tag_Up__Signal 0x000018e8   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Touch_Tag_Up__Signal)
+    Ft_Esd_PushButton_Touch_Tag_Up__Signal   0x000018e9   Thumb Code     8  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Touch_Tag_Up__Signal)
+    i.Ft_Esd_PushButton_Update               0x000018f0   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Update)
+    i.Ft_Esd_PushButton__Initializer         0x00001904   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton__Initializer)
+    i.Ft_Esd_PushButton__Touch_Tag__Initializer 0x00001960   Section        0  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton__Touch_Tag__Initializer)
+    i.Ft_Esd_Rect16_Intersects               0x0000198c   Section        0  ft_esd_math.o(i.Ft_Esd_Rect16_Intersects)
+    i.Ft_Esd_Rect16_IsInsideHorizontal       0x000019b2   Section        0  ft_esd_math.o(i.Ft_Esd_Rect16_IsInsideHorizontal)
+    i.Ft_Esd_Rect16_IsInsideVertical         0x000019ca   Section        0  ft_esd_math.o(i.Ft_Esd_Rect16_IsInsideVertical)
+    i.Ft_Esd_ResetCoState                    0x000019e4   Section        0  ft_esd_dl.o(i.Ft_Esd_ResetCoState)
+    i.Ft_Esd_ResetGpuState                   0x000019fc   Section        0  ft_esd_dl.o(i.Ft_Esd_ResetGpuState)
+    i.Ft_Esd_Theme_GetCurrent                0x00001a4c   Section        0  ft_esd_theme.o(i.Ft_Esd_Theme_GetCurrent)
+    i.Ft_Esd_Timer_CancelGlobal              0x00001a58   Section        0  ft_esd_timer.o(i.Ft_Esd_Timer_CancelGlobal)
+    i.Ft_Esd_Timer_RunGlobal                 0x00001a64   Section        0  ft_esd_timer.o(i.Ft_Esd_Timer_RunGlobal)
+    i.Ft_Esd_Timer_UpdateGlobal              0x00001ab0   Section        0  ft_esd_timer.o(i.Ft_Esd_Timer_UpdateGlobal)
+    i.Ft_Esd_TouchTag_End                    0x00001b0c   Section        0  ft_esd_touchtag.o(i.Ft_Esd_TouchTag_End)
+    i.Ft_Esd_TouchTag_Inside                 0x00001b3c   Section        0  ft_esd_touchtag.o(i.Ft_Esd_TouchTag_Inside)
+    i.Ft_Esd_TouchTag_Start                  0x00001b5c   Section        0  ft_esd_touchtag.o(i.Ft_Esd_TouchTag_Start)
+    i.Ft_Esd_TouchTag_Tag                    0x00001b8c   Section        0  ft_esd_touchtag.o(i.Ft_Esd_TouchTag_Tag)
+    i.Ft_Esd_TouchTag_Update                 0x00001b9c   Section        0  ft_esd_touchtag.o(i.Ft_Esd_TouchTag_Update)
+    i.Ft_Esd_TouchTag__Initializer           0x00001c78   Section        0  ft_esd_touchtag.o(i.Ft_Esd_TouchTag__Initializer)
+    i.Ft_Esd_Widget_Detach                   0x00001c88   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_Detach)
+    i.Ft_Esd_Widget_Detach_Internal          0x00001ca6   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_Detach_Internal)
+    i.Ft_Esd_Widget_Disable                  0x00001cea   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_Disable)
+    i.Ft_Esd_Widget_Enable                   0x00001cf4   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_Enable)
+    i.Ft_Esd_Widget_End                      0x00001cfe   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_End)
+    i.Ft_Esd_Widget_Free                     0x00001d2c   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_Free)
+    i.Ft_Esd_Widget_GetActive                0x00001d7c   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_GetActive)
+    i.Ft_Esd_Widget_GetContainer             0x00001da2   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_GetContainer)
+    i.Ft_Esd_Widget_Idle                     0x00001db2   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_Idle)
+    i.Ft_Esd_Widget_Initialize               0x00001dbc   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_Initialize)
+    i.Ft_Esd_Widget_InsertBottom             0x00001dbe   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_InsertBottom)
+    i.Ft_Esd_Widget_IterateChildActiveSlot   0x00001dd2   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_IterateChildActiveSlot)
+    i.Ft_Esd_Widget_IterateChildActiveSlotReverse 0x00001dfe   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_IterateChildActiveSlotReverse)
+    i.Ft_Esd_Widget_IterateChildActiveValidSlot 0x00001e2a   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_IterateChildActiveValidSlot)
+    i.Ft_Esd_Widget_IterateChildActiveValidSlotReverse 0x00001e5a   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_IterateChildActiveValidSlotReverse)
+    i.Ft_Esd_Widget_IterateChildSlot         0x00001e8a   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_IterateChildSlot)
+    i.Ft_Esd_Widget_IterateChildVisibleSlot  0x00001eb0   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_IterateChildVisibleSlot)
+    i.Ft_Esd_Widget_LocalInsertBottom        0x00001f00   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_LocalInsertBottom)
+    i.Ft_Esd_Widget_PostGlobalRect           0x00001f6e   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_PostGlobalRect)
+    i.Ft_Esd_Widget_PostLocalRect            0x00001f7a   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_PostLocalRect)
+    i.Ft_Esd_Widget_ProcessFree              0x00001f8c   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_ProcessFree)
+    i.Ft_Esd_Widget_Render                   0x00001fac   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_Render)
+    i.Ft_Esd_Widget_SetActive                0x00001fb6   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_SetActive)
+    i.Ft_Esd_Widget_SetGlobalRect            0x00002014   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_SetGlobalRect)
+    i.Ft_Esd_Widget_SetHeight                0x0000204c   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_SetHeight)
+    i.Ft_Esd_Widget_SetWidth                 0x0000205c   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_SetWidth)
+    i.Ft_Esd_Widget_SetX                     0x0000206c   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_SetX)
+    i.Ft_Esd_Widget_Start                    0x0000207c   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_Start)
+    i.Ft_Esd_Widget_Update                   0x00002086   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget_Update)
+    i.Ft_Esd_Widget__Initializer             0x000020c8   Section        0  ft_esd_widget.o(i.Ft_Esd_Widget__Initializer)
+    i.Ft_Gpu_Cmdfifo_Freespace               0x000020e4   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Cmdfifo_Freespace)
+    i.Ft_Gpu_CoCmd_Button                    0x00002108   Section        0  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_Button)
+    i.Ft_Gpu_CoCmd_Calibrate                 0x0000215a   Section        0  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_Calibrate)
+    i.Ft_Gpu_CoCmd_Dlstart                   0x00002178   Section        0  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_Dlstart)
+    i.Ft_Gpu_CoCmd_FgColor                   0x00002184   Section        0  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_FgColor)
+    i.Ft_Gpu_CoCmd_RomFont                   0x0000219c   Section        0  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_RomFont)
+    i.Ft_Gpu_CoCmd_SendStr                   0x000021be   Section        0  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_SendStr)
+    i.Ft_Gpu_CoCmd_Spinner                   0x000021d8   Section        0  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_Spinner)
+    i.Ft_Gpu_CoCmd_Stop                      0x00002208   Section        0  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_Stop)
+    i.Ft_Gpu_CoCmd_Swap                      0x00002214   Section        0  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_Swap)
+    i.Ft_Gpu_CoCmd_Text                      0x00002220   Section        0  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_Text)
+    i.Ft_Gpu_Copro_SendCmd                   0x00002262   Section        0  ft_copro_cmds.o(i.Ft_Gpu_Copro_SendCmd)
+    i.Ft_Gpu_Hal_CheckCmdBuffer              0x0000226a   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_CheckCmdBuffer)
+    i.Ft_Gpu_Hal_Close                       0x0000227c   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_Close)
+    i.Ft_Gpu_Hal_DeInit                      0x00002290   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_DeInit)
+    i.Ft_Gpu_Hal_EndTransfer                 0x00002294   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_EndTransfer)
+    i.Ft_Gpu_Hal_Init                        0x000022a4   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_Init)
+    i.Ft_Gpu_Hal_Open                        0x000022a8   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_Open)
+    i.Ft_Gpu_Hal_Powercycle                  0x000022d8   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_Powercycle)
+    i.Ft_Gpu_Hal_Rd16                        0x00002308   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_Rd16)
+    i.Ft_Gpu_Hal_Rd32                        0x00002328   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_Rd32)
+    i.Ft_Gpu_Hal_Rd8                         0x00002348   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_Rd8)
+    i.Ft_Gpu_Hal_RdMem                       0x00002366   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_RdMem)
+    i.Ft_Gpu_Hal_SetSPI                      0x00002390   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_SetSPI)
+    i.Ft_Gpu_Hal_Sleep                       0x000023c4   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_Sleep)
+    i.Ft_Gpu_Hal_StartCmdTransfer            0x000023cc   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_StartCmdTransfer)
+    i.Ft_Gpu_Hal_StartTransfer               0x000023dc   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_StartTransfer)
+    i.Ft_Gpu_Hal_Transfer16                  0x0000242c   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_Transfer16)
+    i.Ft_Gpu_Hal_Transfer32                  0x0000245c   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_Transfer32)
+    i.Ft_Gpu_Hal_Updatecmdfifo               0x00002498   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_Updatecmdfifo)
+    i.Ft_Gpu_Hal_WaitCmdfifo_empty           0x000024bc   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_WaitCmdfifo_empty)
+    i.Ft_Gpu_Hal_Wr16                        0x000024ec   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_Wr16)
+    i.Ft_Gpu_Hal_Wr32                        0x0000250a   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_Wr32)
+    i.Ft_Gpu_Hal_Wr8                         0x00002528   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_Wr8)
+    i.Ft_Gpu_Hal_WrCmd32                     0x00002544   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_WrCmd32)
+    i.Ft_Gpu_Hal_WrCmdBuf                    0x0000256a   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_WrCmdBuf)
+    i.Ft_Gpu_Hal_WrMem                       0x000025be   Section        0  ft_gpu_hal.o(i.Ft_Gpu_Hal_WrMem)
+    i.Ft_Gpu_HostCommand                     0x000025e4   Section        0  ft_gpu_hal.o(i.Ft_Gpu_HostCommand)
+    i.Ft_Main__Idle                          0x00002608   Section        0  app__generated.o(i.Ft_Main__Idle)
+    i.Ft_Main__Render                        0x00002618   Section        0  app__generated.o(i.Ft_Main__Render)
+    i.Ft_Main__Start                         0x00002628   Section        0  app__generated.o(i.Ft_Main__Start)
+    i.Ft_Main__Update                        0x0000263c   Section        0  app__generated.o(i.Ft_Main__Update)
+    i.GPIO_SetMode                           0x0000264c   Section        0  gpio.o(i.GPIO_SetMode)
+    i.Hard_Fault_Handler                     0x00002674   Section        0  retarget.o(i.Hard_Fault_Handler)
+    __tagsym$$used                           0x00002675   Number         0  retarget.o(i.Hard_Fault_Handler)
+    i.MCU_SPIReadWrite                       0x0000269c   Section        0  ft_gpu_hal.o(i.MCU_SPIReadWrite)
+    i.MainPage_ESD_Label_Font__Property      0x000026b8   Section        0  mainpage__generated.o(i.MainPage_ESD_Label_Font__Property)
+    MainPage_ESD_Label_Font__Property        0x000026b9   Thumb Code     4  mainpage__generated.o(i.MainPage_ESD_Label_Font__Property)
+    i.MainPage_ESD_Label_Text__Property      0x000026bc   Section        0  mainpage__generated.o(i.MainPage_ESD_Label_Text__Property)
+    MainPage_ESD_Label_Text__Property        0x000026bd   Thumb Code     4  mainpage__generated.o(i.MainPage_ESD_Label_Text__Property)
+    i.MainPage_End                           0x000026c4   Section        0  mainpage__generated.o(i.MainPage_End)
+    i.MainPage_Update                        0x00002722   Section        0  mainpage__generated.o(i.MainPage_Update)
+    i.MainPage_Update__Builtin               0x0000275c   Section        0  mainpage__generated.o(i.MainPage_Update__Builtin)
+    i.MainPage__ESD_Label__Initializer       0x00002778   Section        0  mainpage__generated.o(i.MainPage__ESD_Label__Initializer)
+    i.MainPage__Fill_Display__Initializer    0x000027c4   Section        0  mainpage__generated.o(i.MainPage__Fill_Display__Initializer)
+    i.MainPage__Fixed_Positioning__Initializer 0x000027f4   Section        0  mainpage__generated.o(i.MainPage__Fixed_Positioning__Initializer)
+    i.MainPage__Ft_Esd_Layout_Horizontal__Initializer 0x0000282c   Section        0  mainpage__generated.o(i.MainPage__Ft_Esd_Layout_Horizontal__Initializer)
+    i.MainPage__Ft_Esd_Layout_Stretch_4__Initializer 0x00002868   Section        0  mainpage__generated.o(i.MainPage__Ft_Esd_Layout_Stretch_4__Initializer)
+    i.MainPage__Ft_Esd_Layout_Stretch__Initializer 0x0000289c   Section        0  mainpage__generated.o(i.MainPage__Ft_Esd_Layout_Stretch__Initializer)
+    i.MainPage__Ft_Esd_Layout_Vertical__Initializer 0x000028d0   Section        0  mainpage__generated.o(i.MainPage__Ft_Esd_Layout_Vertical__Initializer)
+    i.MainPage__Initializer                  0x00002904   Section        0  mainpage__generated.o(i.MainPage__Initializer)
+    i.MainPage__button_left_move__Initializer 0x0000296c   Section        0  mainpage__generated.o(i.MainPage__button_left_move__Initializer)
+    i.MainPage__button_right_move__Initializer 0x000029b0   Section        0  mainpage__generated.o(i.MainPage__button_right_move__Initializer)
+    i.MainPage_button_left_move_Text__Property 0x000029f4   Section        0  mainpage__generated.o(i.MainPage_button_left_move_Text__Property)
+    MainPage_button_left_move_Text__Property 0x000029f5   Thumb Code     4  mainpage__generated.o(i.MainPage_button_left_move_Text__Property)
+    i.MainPage_button_right_move_Text__Property 0x000029fc   Section        0  mainpage__generated.o(i.MainPage_button_right_move_Text__Property)
+    MainPage_button_right_move_Text__Property 0x000029fd   Thumb Code     4  mainpage__generated.o(i.MainPage_button_right_move_Text__Property)
+    i.SPI_Close                              0x00002a04   Section        0  spi.o(i.SPI_Close)
+    i.SPI_Init                               0x00002a28   Section        0  main.o(i.SPI_Init)
+    i.SPI_Open                               0x00002a44   Section        0  spi.o(i.SPI_Open)
+    i.SYS_Init                               0x00002bd4   Section        0  main.o(i.SYS_Init)
+    i.SendChar_ToUART                        0x00002c6c   Section        0  retarget.o(i.SendChar_ToUART)
+    i.SystemCoreClockUpdate                  0x00002c8c   Section        0  system_m051series.o(i.SystemCoreClockUpdate)
+    i.SystemInit                             0x00002d1c   Section        0  system_m051series.o(i.SystemInit)
+    i.__0printf$5                            0x00002d20   Section        0  printf5.o(i.__0printf$5)
+    i.__scatterload_copy                     0x00002d40   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x00002d4e   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x00002d50   Section       14  handlers.o(i.__scatterload_zeroinit)
+    i._printf_core                           0x00002d60   Section        0  printf5.o(i._printf_core)
+    _printf_core                             0x00002d61   Thumb Code   688  printf5.o(i._printf_core)
+    i.fputc                                  0x0000303c   Section        0  retarget.o(i.fputc)
+    i.free                                   0x00003048   Section        0  malloc.o(i.free)
+    i.loop                                   0x0000309c   Section        0  ft_esd_app.o(i.loop)
+    i.main                                   0x000030f0   Section        0  main.o(i.main)
+    i.malloc                                 0x00003108   Section        0  malloc.o(i.malloc)
+    i.stackDump                              0x00003174   Section        0  retarget.o(i.stackDump)
+    stackDump                                0x00003175   Thumb Code    70  retarget.o(i.stackDump)
+    .constdata                               0x0000321c   Section       12  ft_esd_app.o(.constdata)
+    .constdata                               0x00003228   Section       16  ft_esd_dl.o(.constdata)
+    .constdata                               0x00003238   Section       32  system_m051series.o(.constdata)
+    .data                                    0x20000000   Section       28  ft_esd_theme.o(.data)
+    s_DefaultTheme                           0x20000000   Data           4  ft_esd_theme.o(.data)
+    .data                                    0x2000001c   Section       64  ft_esd_app.o(.data)
+    .data                                    0x2000005c   Section        4  ft_esd_app.o(.data)
+    .data                                    0x20000060   Section        4  ft_esd_app.o(.data)
+    .data                                    0x20000064   Section        1  ft_esd_app.o(.data)
+    .data                                    0x20000068   Section        8  ft_esd_mainloop.o(.data)
+    s_SpinnerPopup                           0x20000068   Data           4  ft_esd_mainloop.o(.data)
+    s_SpinnerPopped                          0x2000006c   Data           4  ft_esd_mainloop.o(.data)
+    .data                                    0x20000070   Section        4  ft_esd_cocmd.o(.data)
+    s_ActiveOwner                            0x20000070   Data           4  ft_esd_cocmd.o(.data)
+    .data                                    0x20000074   Section       24  ft_esd_dl.o(.data)
+    .data                                    0x2000008c   Section        4  ft_esd_timer.o(.data)
+    .data                                    0x20000090   Section       36  ft_esd_widget.o(.data)
+    s_Ft_Esd_Widget_FreeQueue                0x20000090   Data           4  ft_esd_widget.o(.data)
+    s_Ft_Esd_Widget__Slots                   0x20000094   Data          32  ft_esd_widget.o(.data)
+    .data                                    0x200000b4   Section       56  ft_esd_touchtag.o(.data)
+    s_SuppressCurrentTags                    0x200000b4   Data           1  ft_esd_touchtag.o(.data)
+    s_GpuRegTouchTag                         0x200000b5   Data           1  ft_esd_touchtag.o(.data)
+    s_TagDown                                0x200000b6   Data           1  ft_esd_touchtag.o(.data)
+    s_TagUp                                  0x200000b7   Data           1  ft_esd_touchtag.o(.data)
+    s_LastTagFrame                           0x200000b8   Data           4  ft_esd_touchtag.o(.data)
+    s_TouchPos                               0x200000c4   Data           8  ft_esd_touchtag.o(.data)
+    s_TagHandlers                            0x200000cc   Data           8  ft_esd_touchtag.o(.data)
+    s_NullTag                                0x200000d4   Data          24  ft_esd_touchtag.o(.data)
+    .data                                    0x200000ec   Section       32  ft_esd_layout_fixed.o(.data)
+    s_Ft_Esd_Layout_Fixed__Slots             0x200000ec   Data          32  ft_esd_layout_fixed.o(.data)
+    .data                                    0x2000010c   Section       32  ft_esd_layout_display.o(.data)
+    s_Ft_Esd_Layout_Display__Slots           0x2000010c   Data          32  ft_esd_layout_display.o(.data)
+    .data                                    0x2000012c   Section       32  ft_esd_layout_linear.o(.data)
+    s_Ft_Esd_Layout_Linear__Slots            0x2000012c   Data          32  ft_esd_layout_linear.o(.data)
+    .data                                    0x2000014c   Section       32  ft_esd_layout_stretch__generated.o(.data)
+    s_Ft_Esd_Layout_Stretch__Slots           0x2000014c   Data          32  ft_esd_layout_stretch__generated.o(.data)
+    .data                                    0x2000016c   Section       32  ft_esd_label__generated.o(.data)
+    s_Ft_Esd_Label__Slots                    0x2000016c   Data          32  ft_esd_label__generated.o(.data)
+    .data                                    0x2000018c   Section       32  ft_esd_pushbutton__generated.o(.data)
+    s_Ft_Esd_PushButton__Slots               0x2000018c   Data          32  ft_esd_pushbutton__generated.o(.data)
+    .data                                    0x200001ac   Section       32  appscreen__generated.o(.data)
+    s_AppScreen__Slots                       0x200001ac   Data          32  appscreen__generated.o(.data)
+    .data                                    0x200001cc   Section       32  mainpage__generated.o(.data)
+    s_MainPage__Slots                        0x200001cc   Data          32  mainpage__generated.o(.data)
+    .data                                    0x200001ec   Section        4  retarget.o(.data)
+    .data                                    0x200001f0   Section       12  system_m051series.o(.data)
+    .data                                    0x200001fc   Section        4  mvars.o(.data)
+    .data                                    0x20000200   Section        4  mvars.o(.data)
+    .bss                                     0x20000204   Section     1124  ft_esd_app.o(.bss)
+    s_Host                                   0x2000024c   Data          24  ft_esd_app.o(.bss)
+    s_GAlloc                                 0x20000264   Data        1028  ft_esd_app.o(.bss)
+    .bss                                     0x20000668   Section      116  ft_esd_dl.o(.bss)
+    .bss                                     0x200006dc   Section       40  ft_esd_timer.o(.bss)
+    .bss                                     0x20000704   Section       80  app__generated.o(.bss)
+    application                              0x20000704   Data          80  app__generated.o(.bss)
+    HEAP                                     0x20000758   Section        0  startup_m051series.o(HEAP)
+    STACK                                    0x20000758   Section     1024  startup_m051series.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv3M$S$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OTIME$ROPI$IEEEX$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  main.o ABSOLUTE
+    __Vectors                                0x00000000   Data           4  startup_m051series.o(RESET)
+    _printf_a                                0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_c                                0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_charcount                        0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_d                                0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_e                                0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_f                                0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_flags                            0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_fp_dec                           0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_fp_hex                           0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_g                                0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_i                                0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_int_dec                          0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_l                                0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_lc                               0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_ll                               0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_lld                              0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_lli                              0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_llo                              0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_llu                              0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_llx                              0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_longlong_dec                     0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_longlong_hex                     0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_longlong_oct                     0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_ls                               0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_mbtowc                           0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_n                                0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_o                                0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_p                                0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_percent                          0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_pre_padding                      0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_return_value                     0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_s                                0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_sizespec                         0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_str                              0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_truncate_signed                  0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_truncate_unsigned                0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_u                                0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_wc                               0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_wctomb                           0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_widthprec                        0x00000000   Number         0  stubs.o ABSOLUTE
+    _printf_x                                0x00000000   Number         0  stubs.o ABSOLUTE
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __main                                   0x000000c1   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x000000c1   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x000000c5   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x000000c9   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x000000c9   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x000000c9   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x000000c9   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_final_cpp                           0x000000d1   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
+    __rt_final_exit                          0x000000d1   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
+    HardFault_Handler                        0x000000d5   Thumb Code    24  retarget.o(.emb_text)
+    Reset_Handler                            0x000000f1   Thumb Code    32  startup_m051series.o(.text)
+    NMI_Handler                              0x00000111   Thumb Code     2  startup_m051series.o(.text)
+    SVC_Handler                              0x00000115   Thumb Code     2  startup_m051series.o(.text)
+    PendSV_Handler                           0x00000117   Thumb Code     2  startup_m051series.o(.text)
+    SysTick_Handler                          0x00000119   Thumb Code     2  startup_m051series.o(.text)
+    ACMP01_IRQHandler                        0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    ACMP23_IRQHandler                        0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    ADC_IRQHandler                           0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    BOD_IRQHandler                           0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    EINT0_IRQHandler                         0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    EINT1_IRQHandler                         0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    GPIOP0P1_IRQHandler                      0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    GPIOP2P3P4_IRQHandler                    0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    I2C0_IRQHandler                          0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    I2C1_IRQHandler                          0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    PWMA_IRQHandler                          0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    PWMB_IRQHandler                          0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    PWRWU_IRQHandler                         0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    RTC_IRQHandler                           0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    SPI0_IRQHandler                          0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    SPI1_IRQHandler                          0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    TMR0_IRQHandler                          0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    TMR1_IRQHandler                          0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    TMR2_IRQHandler                          0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    TMR3_IRQHandler                          0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    UART0_IRQHandler                         0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    UART1_IRQHandler                         0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    WDT_IRQHandler                           0x0000011b   Thumb Code     0  startup_m051series.o(.text)
+    __aeabi_uidiv                            0x0000013d   Thumb Code     0  uidiv.o(.text)
+    __aeabi_uidivmod                         0x0000013d   Thumb Code    44  uidiv.o(.text)
+    __aeabi_idiv                             0x00000169   Thumb Code     0  idiv.o(.text)
+    __aeabi_idivmod                          0x00000169   Thumb Code    40  idiv.o(.text)
+    __aeabi_memcpy                           0x00000191   Thumb Code    36  memcpya.o(.text)
+    __aeabi_memcpy4                          0x00000191   Thumb Code     0  memcpya.o(.text)
+    __aeabi_memcpy8                          0x00000191   Thumb Code     0  memcpya.o(.text)
+    __aeabi_memset                           0x000001b5   Thumb Code    14  memseta.o(.text)
+    __aeabi_memset4                          0x000001b5   Thumb Code     0  memseta.o(.text)
+    __aeabi_memset8                          0x000001b5   Thumb Code     0  memseta.o(.text)
+    __aeabi_memclr                           0x000001c3   Thumb Code     4  memseta.o(.text)
+    __aeabi_memclr4                          0x000001c3   Thumb Code     0  memseta.o(.text)
+    __aeabi_memclr8                          0x000001c3   Thumb Code     0  memseta.o(.text)
+    _memset$wrapper                          0x000001c7   Thumb Code    18  memseta.o(.text)
+    strlen                                   0x000001d9   Thumb Code    14  strlen.o(.text)
+    __aeabi_uldivmod                         0x000001e7   Thumb Code    96  uldiv.o(.text)
+    __aeabi_llsr                             0x00000247   Thumb Code    34  llushr.o(.text)
+    _ll_ushift_r                             0x00000247   Thumb Code     0  llushr.o(.text)
+    __scatterload                            0x00000269   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x00000269   Thumb Code     0  init.o(.text)
+    __aeabi_llsl                             0x0000028d   Thumb Code    32  llshl.o(.text)
+    _ll_shift_l                              0x0000028d   Thumb Code     0  llshl.o(.text)
+    AppScreen_End                            0x000002ad   Thumb Code    16  appscreen__generated.o(i.AppScreen_End)
+    AppScreen_Start                          0x000002bd   Thumb Code    24  appscreen__generated.o(i.AppScreen_Start)
+    AppScreen_Update                         0x000002d5   Thumb Code    32  appscreen__generated.o(i.AppScreen_Update)
+    AppScreen__Initializer                   0x000002f5   Thumb Code    38  appscreen__generated.o(i.AppScreen__Initializer)
+    AppScreen__Main_Page__Destroy            0x00000325   Thumb Code    42  appscreen__generated.o(i.AppScreen__Main_Page__Destroy)
+    AppScreen__Main_Page__Initializer        0x0000034f   Thumb Code    42  appscreen__generated.o(i.AppScreen__Main_Page__Initializer)
+    AppScreen__Main_Page__Validate           0x00000379   Thumb Code    36  appscreen__generated.o(i.AppScreen__Main_Page__Validate)
+    App_CoPro_Widget_Calibrate               0x0000039d   Thumb Code   100  ft_esd_app.o(i.App_CoPro_Widget_Calibrate)
+    App_Idle                                 0x00000431   Thumb Code    18  app__generated.o(i.App_Idle)
+    App_Render                               0x00000443   Thumb Code    18  app__generated.o(i.App_Render)
+    App_Start                                0x00000455   Thumb Code    22  app__generated.o(i.App_Start)
+    App_Update                               0x0000046b   Thumb Code    18  app__generated.o(i.App_Update)
+    App__App_Screen__Initializer             0x0000047d   Thumb Code    68  app__generated.o(i.App__App_Screen__Initializer)
+    App__Initializer                         0x000004c9   Thumb Code    12  app__generated.o(i.App__Initializer)
+    CLK_EnableModuleClock                    0x000004d5   Thumb Code    24  clk.o(i.CLK_EnableModuleClock)
+    CLK_EnablePLL                            0x000004f1   Thumb Code   348  clk.o(i.CLK_EnablePLL)
+    CLK_EnableXtalRC                         0x00000689   Thumb Code    10  clk.o(i.CLK_EnableXtalRC)
+    CLK_GetHCLKFreq                          0x00000699   Thumb Code    12  clk.o(i.CLK_GetHCLKFreq)
+    CLK_SetCoreClock                         0x00000701   Thumb Code   112  clk.o(i.CLK_SetCoreClock)
+    CLK_SetHCLK                              0x00000779   Thumb Code    72  clk.o(i.CLK_SetHCLK)
+    CLK_SetModuleClock                       0x000007c5   Thumb Code    76  clk.o(i.CLK_SetModuleClock)
+    CLK_WaitClockReady                       0x00000815   Thumb Code    34  clk.o(i.CLK_WaitClockReady)
+    Delay_ms                                 0x00000841   Thumb Code    44  main.o(i.Delay_ms)
+    FT800_BootupConfig                       0x00000875   Thumb Code   426  ft_esd_app.o(i.FT800_BootupConfig)
+    Ft_Esd_CoCmd_Spinner                     0x00000a61   Thumb Code    20  ft_esd_cocmd.o(i.Ft_Esd_CoCmd_Spinner)
+    Ft_Esd_CoCmd_Stop                        0x00000a7d   Thumb Code    28  ft_esd_cocmd.o(i.Ft_Esd_CoCmd_Stop)
+    Ft_Esd_Dl_RomFont_Setup                  0x00000aa1   Thumb Code   176  ft_esd_dl.o(i.Ft_Esd_Dl_RomFont_Setup)
+    Ft_Esd_GetHost                           0x00000b8d   Thumb Code     6  ft_esd_app.o(i.Ft_Esd_GetHost)
+    Ft_Esd_GetMillis                         0x00000b99   Thumb Code     6  ft_esd_app.o(i.Ft_Esd_GetMillis)
+    Ft_Esd_GpuAlloc_CollapseFree             0x00000ba5   Thumb Code   138  ft_esd_gpualloc.o(i.Ft_Esd_GpuAlloc_CollapseFree)
+    Ft_Esd_GpuAlloc_FreeId                   0x00000c2f   Thumb Code    40  ft_esd_gpualloc.o(i.Ft_Esd_GpuAlloc_FreeId)
+    Ft_Esd_GpuAlloc_Reset                    0x00000c57   Thumb Code    72  ft_esd_gpualloc.o(i.Ft_Esd_GpuAlloc_Reset)
+    Ft_Esd_GpuAlloc_Update                   0x00000c9f   Thumb Code    66  ft_esd_gpualloc.o(i.Ft_Esd_GpuAlloc_Update)
+    Ft_Esd_InitDlState                       0x00000ce1   Thumb Code    10  ft_esd_dl.o(i.Ft_Esd_InitDlState)
+    Ft_Esd_InitFontHeight                    0x00000cf1   Thumb Code    46  ft_esd_app.o(i.Ft_Esd_InitFontHeight)
+    Ft_Esd_Label_AlignX__Default             0x00000d29   Thumb Code     4  ft_esd_label__generated.o(i.Ft_Esd_Label_AlignX__Default)
+    Ft_Esd_Label_AlignY__Default             0x00000d2d   Thumb Code     4  ft_esd_label__generated.o(i.Ft_Esd_Label_AlignY__Default)
+    Ft_Esd_Label_Font__Default               0x00000d31   Thumb Code     4  ft_esd_label__generated.o(i.Ft_Esd_Label_Font__Default)
+    Ft_Esd_Label_Render                      0x00000d4d   Thumb Code   362  ft_esd_label__generated.o(i.Ft_Esd_Label_Render)
+    Ft_Esd_Label_Text__Default               0x00000ec9   Thumb Code     4  ft_esd_label__generated.o(i.Ft_Esd_Label_Text__Default)
+    Ft_Esd_Label_Theme__Default              0x00000ed5   Thumb Code     8  ft_esd_label__generated.o(i.Ft_Esd_Label_Theme__Default)
+    Ft_Esd_Label_Update                      0x00000edd   Thumb Code    36  ft_esd_label__generated.o(i.Ft_Esd_Label_Update)
+    Ft_Esd_Label__Initializer                0x00000f01   Thumb Code    58  ft_esd_label__generated.o(i.Ft_Esd_Label__Initializer)
+    Ft_Esd_Layout_Display_Idle               0x00000f59   Thumb Code    10  ft_esd_layout_display.o(i.Ft_Esd_Layout_Display_Idle)
+    Ft_Esd_Layout_Display_Render             0x00000f63   Thumb Code    10  ft_esd_layout_display.o(i.Ft_Esd_Layout_Display_Render)
+    Ft_Esd_Layout_Display_Update             0x00000f6d   Thumb Code    60  ft_esd_layout_display.o(i.Ft_Esd_Layout_Display_Update)
+    Ft_Esd_Layout_Display__Initializer       0x00000fb1   Thumb Code    24  ft_esd_layout_display.o(i.Ft_Esd_Layout_Display__Initializer)
+    Ft_Esd_Layout_Fixed_Idle                 0x00000fd1   Thumb Code    10  ft_esd_layout_fixed.o(i.Ft_Esd_Layout_Fixed_Idle)
+    Ft_Esd_Layout_Fixed_Render               0x00000fdb   Thumb Code    10  ft_esd_layout_fixed.o(i.Ft_Esd_Layout_Fixed_Render)
+    Ft_Esd_Layout_Fixed_Update               0x00000fe5   Thumb Code    72  ft_esd_layout_fixed.o(i.Ft_Esd_Layout_Fixed_Update)
+    Ft_Esd_Layout_Fixed__Initializer         0x0000102d   Thumb Code    24  ft_esd_layout_fixed.o(i.Ft_Esd_Layout_Fixed__Initializer)
+    Ft_Esd_Layout_Linear_Idle                0x0000104d   Thumb Code    26  ft_esd_layout_linear.o(i.Ft_Esd_Layout_Linear_Idle)
+    Ft_Esd_Layout_Linear_Render              0x00001067   Thumb Code    26  ft_esd_layout_linear.o(i.Ft_Esd_Layout_Linear_Render)
+    Ft_Esd_Layout_Linear_Update              0x00001081   Thumb Code  1274  ft_esd_layout_linear.o(i.Ft_Esd_Layout_Linear_Update)
+    Ft_Esd_Layout_Linear__Initializer        0x0000157d   Thumb Code    62  ft_esd_layout_linear.o(i.Ft_Esd_Layout_Linear__Initializer)
+    Ft_Esd_Layout_Stretch__Initializer       0x000015c5   Thumb Code    34  ft_esd_layout_stretch__generated.o(i.Ft_Esd_Layout_Stretch__Initializer)
+    Ft_Esd_MainLoop                          0x000015f1   Thumb Code   326  ft_esd_mainloop.o(i.Ft_Esd_MainLoop)
+    Ft_Esd_Noop                              0x00001771   Thumb Code     2  ft_esd.o(i.Ft_Esd_Noop)
+    Ft_Esd_PushButton_End                    0x00001773   Thumb Code    18  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_End)
+    Ft_Esd_PushButton_Font__Default          0x00001785   Thumb Code     4  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Font__Default)
+    Ft_Esd_PushButton_Primary__Default       0x00001789   Thumb Code     4  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Primary__Default)
+    Ft_Esd_PushButton_Pushing                0x0000178d   Thumb Code    10  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Pushing)
+    Ft_Esd_PushButton_Render                 0x00001799   Thumb Code   262  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Render)
+    Ft_Esd_PushButton_Start                  0x000018b1   Thumb Code    18  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Start)
+    Ft_Esd_PushButton_Text__Default          0x000018c5   Thumb Code     4  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Text__Default)
+    Ft_Esd_PushButton_Theme__Default         0x000018d1   Thumb Code     8  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Theme__Default)
+    Ft_Esd_PushButton_Update                 0x000018f1   Thumb Code    18  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton_Update)
+    Ft_Esd_PushButton__Initializer           0x00001905   Thumb Code    62  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton__Initializer)
+    Ft_Esd_PushButton__Touch_Tag__Initializer 0x00001961   Thumb Code    30  ft_esd_pushbutton__generated.o(i.Ft_Esd_PushButton__Touch_Tag__Initializer)
+    Ft_Esd_Rect16_Intersects                 0x0000198d   Thumb Code    38  ft_esd_math.o(i.Ft_Esd_Rect16_Intersects)
+    Ft_Esd_Rect16_IsInsideHorizontal         0x000019b3   Thumb Code    24  ft_esd_math.o(i.Ft_Esd_Rect16_IsInsideHorizontal)
+    Ft_Esd_Rect16_IsInsideVertical           0x000019cb   Thumb Code    24  ft_esd_math.o(i.Ft_Esd_Rect16_IsInsideVertical)
+    Ft_Esd_ResetCoState                      0x000019e5   Thumb Code    14  ft_esd_dl.o(i.Ft_Esd_ResetCoState)
+    Ft_Esd_ResetGpuState                     0x000019fd   Thumb Code    60  ft_esd_dl.o(i.Ft_Esd_ResetGpuState)
+    Ft_Esd_Theme_GetCurrent                  0x00001a4d   Thumb Code     6  ft_esd_theme.o(i.Ft_Esd_Theme_GetCurrent)
+    Ft_Esd_Timer_CancelGlobal                0x00001a59   Thumb Code     8  ft_esd_timer.o(i.Ft_Esd_Timer_CancelGlobal)
+    Ft_Esd_Timer_RunGlobal                   0x00001a65   Thumb Code    68  ft_esd_timer.o(i.Ft_Esd_Timer_RunGlobal)
+    Ft_Esd_Timer_UpdateGlobal                0x00001ab1   Thumb Code    82  ft_esd_timer.o(i.Ft_Esd_Timer_UpdateGlobal)
+    Ft_Esd_TouchTag_End                      0x00001b0d   Thumb Code    42  ft_esd_touchtag.o(i.Ft_Esd_TouchTag_End)
+    Ft_Esd_TouchTag_Inside                   0x00001b3d   Thumb Code    28  ft_esd_touchtag.o(i.Ft_Esd_TouchTag_Inside)
+    Ft_Esd_TouchTag_Start                    0x00001b5d   Thumb Code    44  ft_esd_touchtag.o(i.Ft_Esd_TouchTag_Start)
+    Ft_Esd_TouchTag_Tag                      0x00001b8d   Thumb Code    14  ft_esd_touchtag.o(i.Ft_Esd_TouchTag_Tag)
+    Ft_Esd_TouchTag_Update                   0x00001b9d   Thumb Code   198  ft_esd_touchtag.o(i.Ft_Esd_TouchTag_Update)
+    Ft_Esd_TouchTag__Initializer             0x00001c79   Thumb Code    12  ft_esd_touchtag.o(i.Ft_Esd_TouchTag__Initializer)
+    Ft_Esd_Widget_Detach                     0x00001c89   Thumb Code    30  ft_esd_widget.o(i.Ft_Esd_Widget_Detach)
+    Ft_Esd_Widget_Detach_Internal            0x00001ca7   Thumb Code    68  ft_esd_widget.o(i.Ft_Esd_Widget_Detach_Internal)
+    Ft_Esd_Widget_Disable                    0x00001ceb   Thumb Code    10  ft_esd_widget.o(i.Ft_Esd_Widget_Disable)
+    Ft_Esd_Widget_Enable                     0x00001cf5   Thumb Code    10  ft_esd_widget.o(i.Ft_Esd_Widget_Enable)
+    Ft_Esd_Widget_End                        0x00001cff   Thumb Code    44  ft_esd_widget.o(i.Ft_Esd_Widget_End)
+    Ft_Esd_Widget_Free                       0x00001d2d   Thumb Code    40  ft_esd_widget.o(i.Ft_Esd_Widget_Free)
+    Ft_Esd_Widget_GetActive                  0x00001d7d   Thumb Code    38  ft_esd_widget.o(i.Ft_Esd_Widget_GetActive)
+    Ft_Esd_Widget_GetContainer               0x00001da3   Thumb Code    16  ft_esd_widget.o(i.Ft_Esd_Widget_GetContainer)
+    Ft_Esd_Widget_Idle                       0x00001db3   Thumb Code    10  ft_esd_widget.o(i.Ft_Esd_Widget_Idle)
+    Ft_Esd_Widget_Initialize                 0x00001dbd   Thumb Code     2  ft_esd_widget.o(i.Ft_Esd_Widget_Initialize)
+    Ft_Esd_Widget_InsertBottom               0x00001dbf   Thumb Code    20  ft_esd_widget.o(i.Ft_Esd_Widget_InsertBottom)
+    Ft_Esd_Widget_IterateChildActiveSlot     0x00001dd3   Thumb Code    44  ft_esd_widget.o(i.Ft_Esd_Widget_IterateChildActiveSlot)
+    Ft_Esd_Widget_IterateChildActiveSlotReverse 0x00001dff   Thumb Code    44  ft_esd_widget.o(i.Ft_Esd_Widget_IterateChildActiveSlotReverse)
+    Ft_Esd_Widget_IterateChildActiveValidSlot 0x00001e2b   Thumb Code    48  ft_esd_widget.o(i.Ft_Esd_Widget_IterateChildActiveValidSlot)
+    Ft_Esd_Widget_IterateChildActiveValidSlotReverse 0x00001e5b   Thumb Code    48  ft_esd_widget.o(i.Ft_Esd_Widget_IterateChildActiveValidSlotReverse)
+    Ft_Esd_Widget_IterateChildSlot           0x00001e8b   Thumb Code    36  ft_esd_widget.o(i.Ft_Esd_Widget_IterateChildSlot)
+    Ft_Esd_Widget_IterateChildVisibleSlot    0x00001eb1   Thumb Code    74  ft_esd_widget.o(i.Ft_Esd_Widget_IterateChildVisibleSlot)
+    Ft_Esd_Widget_LocalInsertBottom          0x00001f01   Thumb Code   110  ft_esd_widget.o(i.Ft_Esd_Widget_LocalInsertBottom)
+    Ft_Esd_Widget_PostGlobalRect             0x00001f6f   Thumb Code    12  ft_esd_widget.o(i.Ft_Esd_Widget_PostGlobalRect)
+    Ft_Esd_Widget_PostLocalRect              0x00001f7b   Thumb Code    18  ft_esd_widget.o(i.Ft_Esd_Widget_PostLocalRect)
+    Ft_Esd_Widget_ProcessFree                0x00001f8d   Thumb Code    26  ft_esd_widget.o(i.Ft_Esd_Widget_ProcessFree)
+    Ft_Esd_Widget_Render                     0x00001fad   Thumb Code    10  ft_esd_widget.o(i.Ft_Esd_Widget_Render)
+    Ft_Esd_Widget_SetActive                  0x00001fb7   Thumb Code    94  ft_esd_widget.o(i.Ft_Esd_Widget_SetActive)
+    Ft_Esd_Widget_SetGlobalRect              0x00002015   Thumb Code    56  ft_esd_widget.o(i.Ft_Esd_Widget_SetGlobalRect)
+    Ft_Esd_Widget_SetHeight                  0x0000204d   Thumb Code    16  ft_esd_widget.o(i.Ft_Esd_Widget_SetHeight)
+    Ft_Esd_Widget_SetWidth                   0x0000205d   Thumb Code    16  ft_esd_widget.o(i.Ft_Esd_Widget_SetWidth)
+    Ft_Esd_Widget_SetX                       0x0000206d   Thumb Code    16  ft_esd_widget.o(i.Ft_Esd_Widget_SetX)
+    Ft_Esd_Widget_Start                      0x0000207d   Thumb Code    10  ft_esd_widget.o(i.Ft_Esd_Widget_Start)
+    Ft_Esd_Widget_Update                     0x00002087   Thumb Code    64  ft_esd_widget.o(i.Ft_Esd_Widget_Update)
+    Ft_Esd_Widget__Initializer               0x000020c9   Thumb Code    20  ft_esd_widget.o(i.Ft_Esd_Widget__Initializer)
+    Ft_Gpu_Cmdfifo_Freespace                 0x000020e5   Thumb Code    26  ft_gpu_hal.o(i.Ft_Gpu_Cmdfifo_Freespace)
+    Ft_Gpu_CoCmd_Button                      0x00002109   Thumb Code    82  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_Button)
+    Ft_Gpu_CoCmd_Calibrate                   0x0000215b   Thumb Code    30  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_Calibrate)
+    Ft_Gpu_CoCmd_Dlstart                     0x00002179   Thumb Code    12  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_Dlstart)
+    Ft_Gpu_CoCmd_FgColor                     0x00002185   Thumb Code    24  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_FgColor)
+    Ft_Gpu_CoCmd_RomFont                     0x0000219d   Thumb Code    34  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_RomFont)
+    Ft_Gpu_CoCmd_SendStr                     0x000021bf   Thumb Code    26  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_SendStr)
+    Ft_Gpu_CoCmd_Spinner                     0x000021d9   Thumb Code    48  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_Spinner)
+    Ft_Gpu_CoCmd_Stop                        0x00002209   Thumb Code    12  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_Stop)
+    Ft_Gpu_CoCmd_Swap                        0x00002215   Thumb Code    12  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_Swap)
+    Ft_Gpu_CoCmd_Text                        0x00002221   Thumb Code    66  ft_copro_cmds.o(i.Ft_Gpu_CoCmd_Text)
+    Ft_Gpu_Copro_SendCmd                     0x00002263   Thumb Code     8  ft_copro_cmds.o(i.Ft_Gpu_Copro_SendCmd)
+    Ft_Gpu_Hal_CheckCmdBuffer                0x0000226b   Thumb Code    18  ft_gpu_hal.o(i.Ft_Gpu_Hal_CheckCmdBuffer)
+    Ft_Gpu_Hal_Close                         0x0000227d   Thumb Code    14  ft_gpu_hal.o(i.Ft_Gpu_Hal_Close)
+    Ft_Gpu_Hal_DeInit                        0x00002291   Thumb Code     2  ft_gpu_hal.o(i.Ft_Gpu_Hal_DeInit)
+    Ft_Gpu_Hal_EndTransfer                   0x00002295   Thumb Code    12  ft_gpu_hal.o(i.Ft_Gpu_Hal_EndTransfer)
+    Ft_Gpu_Hal_Init                          0x000022a5   Thumb Code     4  ft_gpu_hal.o(i.Ft_Gpu_Hal_Init)
+    Ft_Gpu_Hal_Open                          0x000022a9   Thumb Code    38  ft_gpu_hal.o(i.Ft_Gpu_Hal_Open)
+    Ft_Gpu_Hal_Powercycle                    0x000022d9   Thumb Code    42  ft_gpu_hal.o(i.Ft_Gpu_Hal_Powercycle)
+    Ft_Gpu_Hal_Rd16                          0x00002309   Thumb Code    32  ft_gpu_hal.o(i.Ft_Gpu_Hal_Rd16)
+    Ft_Gpu_Hal_Rd32                          0x00002329   Thumb Code    32  ft_gpu_hal.o(i.Ft_Gpu_Hal_Rd32)
+    Ft_Gpu_Hal_Rd8                           0x00002349   Thumb Code    30  ft_gpu_hal.o(i.Ft_Gpu_Hal_Rd8)
+    Ft_Gpu_Hal_RdMem                         0x00002367   Thumb Code    40  ft_gpu_hal.o(i.Ft_Gpu_Hal_RdMem)
+    Ft_Gpu_Hal_SetSPI                        0x00002391   Thumb Code    48  ft_gpu_hal.o(i.Ft_Gpu_Hal_SetSPI)
+    Ft_Gpu_Hal_Sleep                         0x000023c5   Thumb Code     8  ft_gpu_hal.o(i.Ft_Gpu_Hal_Sleep)
+    Ft_Gpu_Hal_StartCmdTransfer              0x000023cd   Thumb Code    16  ft_gpu_hal.o(i.Ft_Gpu_Hal_StartCmdTransfer)
+    Ft_Gpu_Hal_StartTransfer                 0x000023dd   Thumb Code    76  ft_gpu_hal.o(i.Ft_Gpu_Hal_StartTransfer)
+    Ft_Gpu_Hal_Transfer16                    0x0000242d   Thumb Code    48  ft_gpu_hal.o(i.Ft_Gpu_Hal_Transfer16)
+    Ft_Gpu_Hal_Transfer32                    0x0000245d   Thumb Code    58  ft_gpu_hal.o(i.Ft_Gpu_Hal_Transfer32)
+    Ft_Gpu_Hal_Updatecmdfifo                 0x00002499   Thumb Code    26  ft_gpu_hal.o(i.Ft_Gpu_Hal_Updatecmdfifo)
+    Ft_Gpu_Hal_WaitCmdfifo_empty             0x000024bd   Thumb Code    42  ft_gpu_hal.o(i.Ft_Gpu_Hal_WaitCmdfifo_empty)
+    Ft_Gpu_Hal_Wr16                          0x000024ed   Thumb Code    30  ft_gpu_hal.o(i.Ft_Gpu_Hal_Wr16)
+    Ft_Gpu_Hal_Wr32                          0x0000250b   Thumb Code    30  ft_gpu_hal.o(i.Ft_Gpu_Hal_Wr32)
+    Ft_Gpu_Hal_Wr8                           0x00002529   Thumb Code    28  ft_gpu_hal.o(i.Ft_Gpu_Hal_Wr8)
+    Ft_Gpu_Hal_WrCmd32                       0x00002545   Thumb Code    38  ft_gpu_hal.o(i.Ft_Gpu_Hal_WrCmd32)
+    Ft_Gpu_Hal_WrCmdBuf                      0x0000256b   Thumb Code    84  ft_gpu_hal.o(i.Ft_Gpu_Hal_WrCmdBuf)
+    Ft_Gpu_Hal_WrMem                         0x000025bf   Thumb Code    38  ft_gpu_hal.o(i.Ft_Gpu_Hal_WrMem)
+    Ft_Gpu_HostCommand                       0x000025e5   Thumb Code    32  ft_gpu_hal.o(i.Ft_Gpu_HostCommand)
+    Ft_Main__Idle                            0x00002609   Thumb Code    10  app__generated.o(i.Ft_Main__Idle)
+    Ft_Main__Render                          0x00002619   Thumb Code    10  app__generated.o(i.Ft_Main__Render)
+    Ft_Main__Start                           0x00002629   Thumb Code    16  app__generated.o(i.Ft_Main__Start)
+    Ft_Main__Update                          0x0000263d   Thumb Code    10  app__generated.o(i.Ft_Main__Update)
+    GPIO_SetMode                             0x0000264d   Thumb Code    40  gpio.o(i.GPIO_SetMode)
+    Hard_Fault_Handler                       0x00002675   Thumb Code    16  retarget.o(i.Hard_Fault_Handler)
+    MCU_SPIReadWrite                         0x0000269d   Thumb Code    24  ft_gpu_hal.o(i.MCU_SPIReadWrite)
+    MainPage_End                             0x000026c5   Thumb Code    94  mainpage__generated.o(i.MainPage_End)
+    MainPage_Update                          0x00002723   Thumb Code    58  mainpage__generated.o(i.MainPage_Update)
+    MainPage_Update__Builtin                 0x0000275d   Thumb Code    28  mainpage__generated.o(i.MainPage_Update__Builtin)
+    MainPage__ESD_Label__Initializer         0x00002779   Thumb Code    62  mainpage__generated.o(i.MainPage__ESD_Label__Initializer)
+    MainPage__Fill_Display__Initializer      0x000027c5   Thumb Code    48  mainpage__generated.o(i.MainPage__Fill_Display__Initializer)
+    MainPage__Fixed_Positioning__Initializer 0x000027f5   Thumb Code    56  mainpage__generated.o(i.MainPage__Fixed_Positioning__Initializer)
+    MainPage__Ft_Esd_Layout_Horizontal__Initializer 0x0000282d   Thumb Code    60  mainpage__generated.o(i.MainPage__Ft_Esd_Layout_Horizontal__Initializer)
+    MainPage__Ft_Esd_Layout_Stretch_4__Initializer 0x00002869   Thumb Code    52  mainpage__generated.o(i.MainPage__Ft_Esd_Layout_Stretch_4__Initializer)
+    MainPage__Ft_Esd_Layout_Stretch__Initializer 0x0000289d   Thumb Code    52  mainpage__generated.o(i.MainPage__Ft_Esd_Layout_Stretch__Initializer)
+    MainPage__Ft_Esd_Layout_Vertical__Initializer 0x000028d1   Thumb Code    50  mainpage__generated.o(i.MainPage__Ft_Esd_Layout_Vertical__Initializer)
+    MainPage__Initializer                    0x00002905   Thumb Code    94  mainpage__generated.o(i.MainPage__Initializer)
+    MainPage__button_left_move__Initializer  0x0000296d   Thumb Code    64  mainpage__generated.o(i.MainPage__button_left_move__Initializer)
+    MainPage__button_right_move__Initializer 0x000029b1   Thumb Code    64  mainpage__generated.o(i.MainPage__button_right_move__Initializer)
+    SPI_Close                                0x00002a05   Thumb Code    32  spi.o(i.SPI_Close)
+    SPI_Init                                 0x00002a29   Thumb Code    20  main.o(i.SPI_Init)
+    SPI_Open                                 0x00002a45   Thumb Code   388  spi.o(i.SPI_Open)
+    SYS_Init                                 0x00002bd5   Thumb Code   132  main.o(i.SYS_Init)
+    SendChar_ToUART                          0x00002c6d   Thumb Code    26  retarget.o(i.SendChar_ToUART)
+    SystemCoreClockUpdate                    0x00002c8d   Thumb Code   116  system_m051series.o(i.SystemCoreClockUpdate)
+    SystemInit                               0x00002d1d   Thumb Code     2  system_m051series.o(i.SystemInit)
+    __0printf$5                              0x00002d21   Thumb Code    24  printf5.o(i.__0printf$5)
+    __1printf$5                              0x00002d21   Thumb Code     0  printf5.o(i.__0printf$5)
+    __2printf                                0x00002d21   Thumb Code     0  printf5.o(i.__0printf$5)
+    __scatterload_copy                       0x00002d41   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x00002d4f   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x00002d51   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    fputc                                    0x0000303d   Thumb Code    12  retarget.o(i.fputc)
+    free                                     0x00003049   Thumb Code    80  malloc.o(i.free)
+    loop                                     0x0000309d   Thumb Code    74  ft_esd_app.o(i.loop)
+    main                                     0x000030f1   Thumb Code    24  main.o(i.main)
+    malloc                                   0x00003109   Thumb Code    92  malloc.o(i.malloc)
+    FT_DLCODE_BOOTUP                         0x0000321c   Data          12  ft_esd_app.o(.constdata)
+    gau32ClkSrcTbl                           0x00003238   Data          32  system_m051series.o(.constdata)
+    Region$$Table$$Base                      0x00003258   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00003278   Number         0  anon$$obj.o(Region$$Table)
+    Ft_Esd_DefaultTheme                      0x20000004   Data          24  ft_esd_theme.o(.data)
+    FT_DispPCLK                              0x2000001c   Data           1  ft_esd_app.o(.data)
+    FT_DispSwizzle                           0x2000001d   Data           1  ft_esd_app.o(.data)
+    FT_DispPCLKPol                           0x2000001e   Data           1  ft_esd_app.o(.data)
+    FT_DispCSpread                           0x2000001f   Data           1  ft_esd_app.o(.data)
+    FT_DispDither                            0x20000020   Data           1  ft_esd_app.o(.data)
+    Ft_Esd_Host                              0x20000024   Data           4  ft_esd_app.o(.data)
+    Ft_Esd_GAlloc                            0x20000028   Data           4  ft_esd_app.o(.data)
+    Ft_Esd_Millis                            0x2000002c   Data           4  ft_esd_app.o(.data)
+    Ft_Esd_DeltaMs                           0x20000030   Data           4  ft_esd_app.o(.data)
+    FT_DispWidth                             0x20000034   Data           4  ft_esd_app.o(.data)
+    FT_DispHeight                            0x20000038   Data           4  ft_esd_app.o(.data)
+    FT_DispHCycle                            0x2000003c   Data           4  ft_esd_app.o(.data)
+    FT_DispHOffset                           0x20000040   Data           4  ft_esd_app.o(.data)
+    FT_DispHSync0                            0x20000044   Data           4  ft_esd_app.o(.data)
+    FT_DispHSync1                            0x20000048   Data           4  ft_esd_app.o(.data)
+    FT_DispVCycle                            0x2000004c   Data           4  ft_esd_app.o(.data)
+    FT_DispVOffset                           0x20000050   Data           4  ft_esd_app.o(.data)
+    FT_DispVSync0                            0x20000054   Data           4  ft_esd_app.o(.data)
+    FT_DispVSync1                            0x20000058   Data           4  ft_esd_app.o(.data)
+    Ft_Esd_Frame                             0x2000005c   Data           4  ft_esd_app.o(.data)
+    Ft_Esd_ClearColor                        0x20000060   Data           4  ft_esd_app.o(.data)
+    Ft_Esd_LoopState                         0x20000064   Data           1  ft_esd_app.o(.data)
+    Ft_Esd_BitmapHandleUse                   0x20000074   Data           1  ft_esd_dl.o(.data)
+    Ft_Esd_ScratchHandle                     0x20000075   Data           1  ft_esd_dl.o(.data)
+    Ft_Esd_BitmapHandleResized               0x20000076   Data           1  ft_esd_dl.o(.data)
+    Ft_Esd_BitmapHandlePage                  0x20000077   Data           1  ft_esd_dl.o(.data)
+    Ft_Esd_GpuState_I                        0x20000078   Data           1  ft_esd_dl.o(.data)
+    Ft_Esd_BitmapHandleInfo                  0x2000007c   Data           4  ft_esd_dl.o(.data)
+    Ft_Esd_BitmapHandleGpuHandle             0x20000080   Data           4  ft_esd_dl.o(.data)
+    Ft_Esd_CoFgColor                         0x20000084   Data           4  ft_esd_dl.o(.data)
+    Ft_Esd_CoBgColor                         0x20000088   Data           4  ft_esd_dl.o(.data)
+    Ft_Esd_TimerEntryNb                      0x2000008c   Data           4  ft_esd_timer.o(.data)
+    s_TouchPosXDelta                         0x200000bc   Data           4  ft_esd_touchtag.o(.data)
+    s_TouchPosYDelta                         0x200000c0   Data           4  ft_esd_touchtag.o(.data)
+    __stdout                                 0x200001ec   Data           4  retarget.o(.data)
+    SystemCoreClock                          0x200001f0   Data           4  system_m051series.o(.data)
+    CyclesPerUs                              0x200001f4   Data           4  system_m051series.o(.data)
+    PllClock                                 0x200001f8   Data           4  system_m051series.o(.data)
+    __microlib_freelist                      0x200001fc   Data           4  mvars.o(.data)
+    __microlib_freelist_initialised          0x20000200   Data           4  mvars.o(.data)
+    Ft_Esd_FontHeight                        0x20000204   Data          70  ft_esd_app.o(.bss)
+    Ft_Esd_RomFontHandles                    0x20000668   Data          19  ft_esd_dl.o(.bss)
+    Ft_Esd_GpuState                          0x2000067c   Data          80  ft_esd_dl.o(.bss)
+    Ft_Esd_ScissorRect                       0x200006cc   Data          16  ft_esd_dl.o(.bss)
+    Ft_Esd_TimerEntries                      0x200006dc   Data          40  ft_esd_timer.o(.bss)
+    __heap_base                              0x20000758   Data           0  startup_m051series.o(HEAP)
+    __heap_limit                             0x20000758   Data           0  startup_m051series.o(HEAP)
+    __initial_sp                             0x20000b58   Data           0  startup_m051series.o(STACK)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x000000f1
+
+  Load Region LR_1 (Base: 0x00000000, Size: 0x0000347c, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region ER_RO (Base: 0x00000000, Size: 0x00003278, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x000000c0   Data   RO         2666    RESET               startup_m051series.o
+    0x000000c0   0x00000000   Code   RO         3319  * .ARM.Collect$$$$00000000  mc_p.l(entry.o)
+    0x000000c0   0x00000004   Code   RO         3659    .ARM.Collect$$$$00000001  mc_p.l(entry2.o)
+    0x000000c4   0x00000004   Code   RO         3662    .ARM.Collect$$$$00000004  mc_p.l(entry5.o)
+    0x000000c8   0x00000000   Code   RO         3664    .ARM.Collect$$$$00000008  mc_p.l(entry7b.o)
+    0x000000c8   0x00000000   Code   RO         3666    .ARM.Collect$$$$0000000A  mc_p.l(entry8b.o)
+    0x000000c8   0x00000008   Code   RO         3667    .ARM.Collect$$$$0000000B  mc_p.l(entry9a.o)
+    0x000000d0   0x00000000   Code   RO         3669    .ARM.Collect$$$$0000000D  mc_p.l(entry10a.o)
+    0x000000d0   0x00000000   Code   RO         3671    .ARM.Collect$$$$0000000F  mc_p.l(entry11a.o)
+    0x000000d0   0x00000004   Code   RO         3660    .ARM.Collect$$$$00002712  mc_p.l(entry2.o)
+    0x000000d4   0x0000001c   Code   RO         2577    .emb_text           retarget.o
+    0x000000f0   0x0000004c   Code   RO         2667  * .text               startup_m051series.o
+    0x0000013c   0x0000002c   Code   RO         3320    .text               mc_p.l(uidiv.o)
+    0x00000168   0x00000028   Code   RO         3322    .text               mc_p.l(idiv.o)
+    0x00000190   0x00000024   Code   RO         3324    .text               mc_p.l(memcpya.o)
+    0x000001b4   0x00000024   Code   RO         3326    .text               mc_p.l(memseta.o)
+    0x000001d8   0x0000000e   Code   RO         3328    .text               mc_p.l(strlen.o)
+    0x000001e6   0x00000060   Code   RO         3673    .text               mc_p.l(uldiv.o)
+    0x00000246   0x00000022   Code   RO         3675    .text               mc_p.l(llushr.o)
+    0x00000268   0x00000024   Code   RO         3705    .text               mc_p.l(init.o)
+    0x0000028c   0x00000020   Code   RO         3707    .text               mc_p.l(llshl.o)
+    0x000002ac   0x00000010   Code   RO         1626    i.AppScreen_End     appscreen__generated.o
+    0x000002bc   0x00000018   Code   RO         1627    i.AppScreen_Start   appscreen__generated.o
+    0x000002d4   0x00000020   Code   RO         1628    i.AppScreen_Update  appscreen__generated.o
+    0x000002f4   0x00000030   Code   RO         1629    i.AppScreen__Initializer  appscreen__generated.o
+    0x00000324   0x0000002a   Code   RO         1630    i.AppScreen__Main_Page__Destroy  appscreen__generated.o
+    0x0000034e   0x0000002a   Code   RO         1631    i.AppScreen__Main_Page__Initializer  appscreen__generated.o
+    0x00000378   0x00000024   Code   RO         1632    i.AppScreen__Main_Page__Validate  appscreen__generated.o
+    0x0000039c   0x00000094   Code   RO          219    i.App_CoPro_Widget_Calibrate  ft_esd_app.o
+    0x00000430   0x00000012   Code   RO         1538    i.App_Idle          app__generated.o
+    0x00000442   0x00000012   Code   RO         1540    i.App_Render        app__generated.o
+    0x00000454   0x00000016   Code   RO         1541    i.App_Start         app__generated.o
+    0x0000046a   0x00000012   Code   RO         1542    i.App_Update        app__generated.o
+    0x0000047c   0x0000004c   Code   RO         1543    i.App__App_Screen__Initializer  app__generated.o
+    0x000004c8   0x0000000c   Code   RO         1544    i.App__Initializer  app__generated.o
+    0x000004d4   0x0000001c   Code   RO         2715    i.CLK_EnableModuleClock  clk.o
+    0x000004f0   0x00000198   Code   RO         2716    i.CLK_EnablePLL     clk.o
+    0x00000688   0x00000010   Code   RO         2718    i.CLK_EnableXtalRC  clk.o
+    0x00000698   0x00000010   Code   RO         2720    i.CLK_GetHCLKFreq   clk.o
+    0x000006a8   0x00000058   Code   RO         2994    i.CLK_GetPLLClockFreq  spi.o
+    0x00000700   0x00000078   Code   RO         2725    i.CLK_SetCoreClock  clk.o
+    0x00000778   0x0000004c   Code   RO         2726    i.CLK_SetHCLK       clk.o
+    0x000007c4   0x00000050   Code   RO         2727    i.CLK_SetModuleClock  clk.o
+    0x00000814   0x0000002c   Code   RO         2729    i.CLK_WaitClockReady  clk.o
+    0x00000840   0x00000034   Code   RO            3    i.Delay_ms          main.o
+    0x00000874   0x000001ec   Code   RO          220    i.FT800_BootupConfig  ft_esd_app.o
+    0x00000a60   0x0000001c   Code   RO          335    i.Ft_Esd_CoCmd_Spinner  ft_esd_cocmd.o
+    0x00000a7c   0x00000024   Code   RO          336    i.Ft_Esd_CoCmd_Stop  ft_esd_cocmd.o
+    0x00000aa0   0x000000d4   Code   RO          384    i.Ft_Esd_Dl_RomFont_Setup  ft_esd_dl.o
+    0x00000b74   0x00000018   Code   RO         1433    i.Ft_Esd_Dl_TAG     ft_esd_pushbutton__generated.o
+    0x00000b8c   0x0000000c   Code   RO          224    i.Ft_Esd_GetHost    ft_esd_app.o
+    0x00000b98   0x0000000c   Code   RO          225    i.Ft_Esd_GetMillis  ft_esd_app.o
+    0x00000ba4   0x0000008a   Code   RO         1219    i.Ft_Esd_GpuAlloc_CollapseFree  ft_esd_gpualloc.o
+    0x00000c2e   0x00000028   Code   RO         1221    i.Ft_Esd_GpuAlloc_FreeId  ft_esd_gpualloc.o
+    0x00000c56   0x00000048   Code   RO         1227    i.Ft_Esd_GpuAlloc_Reset  ft_esd_gpualloc.o
+    0x00000c9e   0x00000042   Code   RO         1228    i.Ft_Esd_GpuAlloc_Update  ft_esd_gpualloc.o
+    0x00000ce0   0x00000010   Code   RO          388    i.Ft_Esd_InitDlState  ft_esd_dl.o
+    0x00000cf0   0x00000038   Code   RO          226    i.Ft_Esd_InitFontHeight  ft_esd_app.o
+    0x00000d28   0x00000004   Code   RO         1091    i.Ft_Esd_Label_AlignX__Default  ft_esd_label__generated.o
+    0x00000d2c   0x00000004   Code   RO         1092    i.Ft_Esd_Label_AlignY__Default  ft_esd_label__generated.o
+    0x00000d30   0x00000004   Code   RO         1093    i.Ft_Esd_Label_Font__Default  ft_esd_label__generated.o
+    0x00000d34   0x00000018   Code   RO         1094    i.Ft_Esd_Label_Get_Font_Height__return  ft_esd_label__generated.o
+    0x00000d4c   0x0000017c   Code   RO         1095    i.Ft_Esd_Label_Render  ft_esd_label__generated.o
+    0x00000ec8   0x0000000c   Code   RO         1096    i.Ft_Esd_Label_Text__Default  ft_esd_label__generated.o
+    0x00000ed4   0x00000008   Code   RO         1097    i.Ft_Esd_Label_Theme__Default  ft_esd_label__generated.o
+    0x00000edc   0x00000024   Code   RO         1098    i.Ft_Esd_Label_Update  ft_esd_label__generated.o
+    0x00000f00   0x00000058   Code   RO         1099    i.Ft_Esd_Label__Initializer  ft_esd_label__generated.o
+    0x00000f58   0x0000000a   Code   RO         1003    i.Ft_Esd_Layout_Display_Idle  ft_esd_layout_display.o
+    0x00000f62   0x0000000a   Code   RO         1004    i.Ft_Esd_Layout_Display_Render  ft_esd_layout_display.o
+    0x00000f6c   0x00000044   Code   RO         1005    i.Ft_Esd_Layout_Display_Update  ft_esd_layout_display.o
+    0x00000fb0   0x00000020   Code   RO         1006    i.Ft_Esd_Layout_Display__Initializer  ft_esd_layout_display.o
+    0x00000fd0   0x0000000a   Code   RO          968    i.Ft_Esd_Layout_Fixed_Idle  ft_esd_layout_fixed.o
+    0x00000fda   0x0000000a   Code   RO          969    i.Ft_Esd_Layout_Fixed_Render  ft_esd_layout_fixed.o
+    0x00000fe4   0x00000048   Code   RO          970    i.Ft_Esd_Layout_Fixed_Update  ft_esd_layout_fixed.o
+    0x0000102c   0x00000020   Code   RO          971    i.Ft_Esd_Layout_Fixed__Initializer  ft_esd_layout_fixed.o
+    0x0000104c   0x0000001a   Code   RO         1039    i.Ft_Esd_Layout_Linear_Idle  ft_esd_layout_linear.o
+    0x00001066   0x0000001a   Code   RO         1040    i.Ft_Esd_Layout_Linear_Render  ft_esd_layout_linear.o
+    0x00001080   0x000004fa   Code   RO         1041    i.Ft_Esd_Layout_Linear_Update  ft_esd_layout_linear.o
+    0x0000157a   0x00000002   PAD
+    0x0000157c   0x00000048   Code   RO         1042    i.Ft_Esd_Layout_Linear__Initializer  ft_esd_layout_linear.o
+    0x000015c4   0x0000002c   Code   RO         1077    i.Ft_Esd_Layout_Stretch__Initializer  ft_esd_layout_stretch__generated.o
+    0x000015f0   0x00000180   Code   RO          296    i.Ft_Esd_MainLoop   ft_esd_mainloop.o
+    0x00001770   0x00000002   Code   RO          921    i.Ft_Esd_Noop       ft_esd.o
+    0x00001772   0x00000012   Code   RO         1434    i.Ft_Esd_PushButton_End  ft_esd_pushbutton__generated.o
+    0x00001784   0x00000004   Code   RO         1435    i.Ft_Esd_PushButton_Font__Default  ft_esd_pushbutton__generated.o
+    0x00001788   0x00000004   Code   RO         1436    i.Ft_Esd_PushButton_Primary__Default  ft_esd_pushbutton__generated.o
+    0x0000178c   0x0000000a   Code   RO         1437    i.Ft_Esd_PushButton_Pushing  ft_esd_pushbutton__generated.o
+    0x00001796   0x00000002   PAD
+    0x00001798   0x00000118   Code   RO         1438    i.Ft_Esd_PushButton_Render  ft_esd_pushbutton__generated.o
+    0x000018b0   0x00000012   Code   RO         1439    i.Ft_Esd_PushButton_Start  ft_esd_pushbutton__generated.o
+    0x000018c2   0x00000002   PAD
+    0x000018c4   0x0000000c   Code   RO         1440    i.Ft_Esd_PushButton_Text__Default  ft_esd_pushbutton__generated.o
+    0x000018d0   0x00000008   Code   RO         1441    i.Ft_Esd_PushButton_Theme__Default  ft_esd_pushbutton__generated.o
+    0x000018d8   0x00000008   Code   RO         1442    i.Ft_Esd_PushButton_Touch_Tag_Down__Signal  ft_esd_pushbutton__generated.o
+    0x000018e0   0x00000008   Code   RO         1443    i.Ft_Esd_PushButton_Touch_Tag_Tap__Signal  ft_esd_pushbutton__generated.o
+    0x000018e8   0x00000008   Code   RO         1444    i.Ft_Esd_PushButton_Touch_Tag_Up__Signal  ft_esd_pushbutton__generated.o
+    0x000018f0   0x00000012   Code   RO         1445    i.Ft_Esd_PushButton_Update  ft_esd_pushbutton__generated.o
+    0x00001902   0x00000002   PAD
+    0x00001904   0x0000005c   Code   RO         1446    i.Ft_Esd_PushButton__Initializer  ft_esd_pushbutton__generated.o
+    0x00001960   0x0000002c   Code   RO         1447    i.Ft_Esd_PushButton__Touch_Tag__Initializer  ft_esd_pushbutton__generated.o
+    0x0000198c   0x00000026   Code   RO          891    i.Ft_Esd_Rect16_Intersects  ft_esd_math.o
+    0x000019b2   0x00000018   Code   RO          893    i.Ft_Esd_Rect16_IsInsideHorizontal  ft_esd_math.o
+    0x000019ca   0x00000018   Code   RO          894    i.Ft_Esd_Rect16_IsInsideVertical  ft_esd_math.o
+    0x000019e2   0x00000002   PAD
+    0x000019e4   0x00000018   Code   RO          389    i.Ft_Esd_ResetCoState  ft_esd_dl.o
+    0x000019fc   0x00000050   Code   RO          390    i.Ft_Esd_ResetGpuState  ft_esd_dl.o
+    0x00001a4c   0x0000000c   Code   RO          184    i.Ft_Esd_Theme_GetCurrent  ft_esd_theme.o
+    0x00001a58   0x0000000c   Code   RO          501    i.Ft_Esd_Timer_CancelGlobal  ft_esd_timer.o
+    0x00001a64   0x0000004c   Code   RO          503    i.Ft_Esd_Timer_RunGlobal  ft_esd_timer.o
+    0x00001ab0   0x0000005c   Code   RO          505    i.Ft_Esd_Timer_UpdateGlobal  ft_esd_timer.o
+    0x00001b0c   0x00000030   Code   RO          798    i.Ft_Esd_TouchTag_End  ft_esd_touchtag.o
+    0x00001b3c   0x00000020   Code   RO          800    i.Ft_Esd_TouchTag_Inside  ft_esd_touchtag.o
+    0x00001b5c   0x00000030   Code   RO          801    i.Ft_Esd_TouchTag_Start  ft_esd_touchtag.o
+    0x00001b8c   0x0000000e   Code   RO          803    i.Ft_Esd_TouchTag_Tag  ft_esd_touchtag.o
+    0x00001b9a   0x00000002   PAD
+    0x00001b9c   0x000000dc   Code   RO          809    i.Ft_Esd_TouchTag_Update  ft_esd_touchtag.o
+    0x00001c78   0x00000010   Code   RO          810    i.Ft_Esd_TouchTag__Initializer  ft_esd_touchtag.o
+    0x00001c88   0x0000001e   Code   RO          544    i.Ft_Esd_Widget_Detach  ft_esd_widget.o
+    0x00001ca6   0x00000044   Code   RO          545    i.Ft_Esd_Widget_Detach_Internal  ft_esd_widget.o
+    0x00001cea   0x0000000a   Code   RO          546    i.Ft_Esd_Widget_Disable  ft_esd_widget.o
+    0x00001cf4   0x0000000a   Code   RO          547    i.Ft_Esd_Widget_Enable  ft_esd_widget.o
+    0x00001cfe   0x0000002c   Code   RO          548    i.Ft_Esd_Widget_End  ft_esd_widget.o
+    0x00001d2a   0x00000002   PAD
+    0x00001d2c   0x00000050   Code   RO          549    i.Ft_Esd_Widget_Free  ft_esd_widget.o
+    0x00001d7c   0x00000026   Code   RO          550    i.Ft_Esd_Widget_GetActive  ft_esd_widget.o
+    0x00001da2   0x00000010   Code   RO          551    i.Ft_Esd_Widget_GetContainer  ft_esd_widget.o
+    0x00001db2   0x0000000a   Code   RO          553    i.Ft_Esd_Widget_Idle  ft_esd_widget.o
+    0x00001dbc   0x00000002   Code   RO          554    i.Ft_Esd_Widget_Initialize  ft_esd_widget.o
+    0x00001dbe   0x00000014   Code   RO          555    i.Ft_Esd_Widget_InsertBottom  ft_esd_widget.o
+    0x00001dd2   0x0000002c   Code   RO          558    i.Ft_Esd_Widget_IterateChildActiveSlot  ft_esd_widget.o
+    0x00001dfe   0x0000002c   Code   RO          559    i.Ft_Esd_Widget_IterateChildActiveSlotReverse  ft_esd_widget.o
+    0x00001e2a   0x00000030   Code   RO          560    i.Ft_Esd_Widget_IterateChildActiveValidSlot  ft_esd_widget.o
+    0x00001e5a   0x00000030   Code   RO          561    i.Ft_Esd_Widget_IterateChildActiveValidSlotReverse  ft_esd_widget.o
+    0x00001e8a   0x00000024   Code   RO          562    i.Ft_Esd_Widget_IterateChildSlot  ft_esd_widget.o
+    0x00001eae   0x00000002   PAD
+    0x00001eb0   0x00000050   Code   RO          564    i.Ft_Esd_Widget_IterateChildVisibleSlot  ft_esd_widget.o
+    0x00001f00   0x0000006e   Code   RO          566    i.Ft_Esd_Widget_LocalInsertBottom  ft_esd_widget.o
+    0x00001f6e   0x0000000c   Code   RO          568    i.Ft_Esd_Widget_PostGlobalRect  ft_esd_widget.o
+    0x00001f7a   0x00000012   Code   RO          569    i.Ft_Esd_Widget_PostLocalRect  ft_esd_widget.o
+    0x00001f8c   0x00000020   Code   RO          570    i.Ft_Esd_Widget_ProcessFree  ft_esd_widget.o
+    0x00001fac   0x0000000a   Code   RO          572    i.Ft_Esd_Widget_Render  ft_esd_widget.o
+    0x00001fb6   0x0000005e   Code   RO          574    i.Ft_Esd_Widget_SetActive  ft_esd_widget.o
+    0x00002014   0x00000038   Code   RO          575    i.Ft_Esd_Widget_SetGlobalRect  ft_esd_widget.o
+    0x0000204c   0x00000010   Code   RO          576    i.Ft_Esd_Widget_SetHeight  ft_esd_widget.o
+    0x0000205c   0x00000010   Code   RO          578    i.Ft_Esd_Widget_SetWidth  ft_esd_widget.o
+    0x0000206c   0x00000010   Code   RO          579    i.Ft_Esd_Widget_SetX  ft_esd_widget.o
+    0x0000207c   0x0000000a   Code   RO          581    i.Ft_Esd_Widget_Start  ft_esd_widget.o
+    0x00002086   0x00000040   Code   RO          582    i.Ft_Esd_Widget_Update  ft_esd_widget.o
+    0x000020c6   0x00000002   PAD
+    0x000020c8   0x0000001c   Code   RO          583    i.Ft_Esd_Widget__Initializer  ft_esd_widget.o
+    0x000020e4   0x00000024   Code   RO         2248    i.Ft_Gpu_Cmdfifo_Freespace  ft_gpu_hal.o
+    0x00002108   0x00000052   Code   RO         1822    i.Ft_Gpu_CoCmd_Button  ft_copro_cmds.o
+    0x0000215a   0x0000001e   Code   RO         1823    i.Ft_Gpu_CoCmd_Calibrate  ft_copro_cmds.o
+    0x00002178   0x0000000c   Code   RO         1827    i.Ft_Gpu_CoCmd_Dlstart  ft_copro_cmds.o
+    0x00002184   0x00000018   Code   RO         1829    i.Ft_Gpu_CoCmd_FgColor  ft_copro_cmds.o
+    0x0000219c   0x00000022   Code   RO         1854    i.Ft_Gpu_CoCmd_RomFont  ft_copro_cmds.o
+    0x000021be   0x0000001a   Code   RO         1859    i.Ft_Gpu_CoCmd_SendStr  ft_copro_cmds.o
+    0x000021d8   0x00000030   Code   RO         1871    i.Ft_Gpu_CoCmd_Spinner  ft_copro_cmds.o
+    0x00002208   0x0000000c   Code   RO         1873    i.Ft_Gpu_CoCmd_Stop  ft_copro_cmds.o
+    0x00002214   0x0000000c   Code   RO         1874    i.Ft_Gpu_CoCmd_Swap  ft_copro_cmds.o
+    0x00002220   0x00000042   Code   RO         1876    i.Ft_Gpu_CoCmd_Text  ft_copro_cmds.o
+    0x00002262   0x00000008   Code   RO         1883    i.Ft_Gpu_Copro_SendCmd  ft_copro_cmds.o
+    0x0000226a   0x00000012   Code   RO         2252    i.Ft_Gpu_Hal_CheckCmdBuffer  ft_gpu_hal.o
+    0x0000227c   0x00000014   Code   RO         2253    i.Ft_Gpu_Hal_Close  ft_gpu_hal.o
+    0x00002290   0x00000002   Code   RO         2254    i.Ft_Gpu_Hal_DeInit  ft_gpu_hal.o
+    0x00002292   0x00000002   PAD
+    0x00002294   0x00000010   Code   RO         2256    i.Ft_Gpu_Hal_EndTransfer  ft_gpu_hal.o
+    0x000022a4   0x00000004   Code   RO         2257    i.Ft_Gpu_Hal_Init   ft_gpu_hal.o
+    0x000022a8   0x00000030   Code   RO         2258    i.Ft_Gpu_Hal_Open   ft_gpu_hal.o
+    0x000022d8   0x00000030   Code   RO         2259    i.Ft_Gpu_Hal_Powercycle  ft_gpu_hal.o
+    0x00002308   0x00000020   Code   RO         2260    i.Ft_Gpu_Hal_Rd16   ft_gpu_hal.o
+    0x00002328   0x00000020   Code   RO         2261    i.Ft_Gpu_Hal_Rd32   ft_gpu_hal.o
+    0x00002348   0x0000001e   Code   RO         2262    i.Ft_Gpu_Hal_Rd8    ft_gpu_hal.o
+    0x00002366   0x00000028   Code   RO         2263    i.Ft_Gpu_Hal_RdMem  ft_gpu_hal.o
+    0x0000238e   0x00000002   PAD
+    0x00002390   0x00000034   Code   RO         2266    i.Ft_Gpu_Hal_SetSPI  ft_gpu_hal.o
+    0x000023c4   0x00000008   Code   RO         2267    i.Ft_Gpu_Hal_Sleep  ft_gpu_hal.o
+    0x000023cc   0x00000010   Code   RO         2268    i.Ft_Gpu_Hal_StartCmdTransfer  ft_gpu_hal.o
+    0x000023dc   0x00000050   Code   RO         2269    i.Ft_Gpu_Hal_StartTransfer  ft_gpu_hal.o
+    0x0000242c   0x00000030   Code   RO         2270    i.Ft_Gpu_Hal_Transfer16  ft_gpu_hal.o
+    0x0000245c   0x0000003a   Code   RO         2271    i.Ft_Gpu_Hal_Transfer32  ft_gpu_hal.o
+    0x00002496   0x00000002   PAD
+    0x00002498   0x00000024   Code   RO         2274    i.Ft_Gpu_Hal_Updatecmdfifo  ft_gpu_hal.o
+    0x000024bc   0x00000030   Code   RO         2275    i.Ft_Gpu_Hal_WaitCmdfifo_empty  ft_gpu_hal.o
+    0x000024ec   0x0000001e   Code   RO         2278    i.Ft_Gpu_Hal_Wr16   ft_gpu_hal.o
+    0x0000250a   0x0000001e   Code   RO         2279    i.Ft_Gpu_Hal_Wr32   ft_gpu_hal.o
+    0x00002528   0x0000001c   Code   RO         2280    i.Ft_Gpu_Hal_Wr8    ft_gpu_hal.o
+    0x00002544   0x00000026   Code   RO         2281    i.Ft_Gpu_Hal_WrCmd32  ft_gpu_hal.o
+    0x0000256a   0x00000054   Code   RO         2282    i.Ft_Gpu_Hal_WrCmdBuf  ft_gpu_hal.o
+    0x000025be   0x00000026   Code   RO         2285    i.Ft_Gpu_Hal_WrMem  ft_gpu_hal.o
+    0x000025e4   0x00000024   Code   RO         2286    i.Ft_Gpu_HostCommand  ft_gpu_hal.o
+    0x00002608   0x00000010   Code   RO         1546    i.Ft_Main__Idle     app__generated.o
+    0x00002618   0x00000010   Code   RO         1547    i.Ft_Main__Render   app__generated.o
+    0x00002628   0x00000014   Code   RO         1548    i.Ft_Main__Start    app__generated.o
+    0x0000263c   0x00000010   Code   RO         1549    i.Ft_Main__Update   app__generated.o
+    0x0000264c   0x00000028   Code   RO         2964    i.GPIO_SetMode      gpio.o
+    0x00002674   0x00000028   Code   RO         2579    i.Hard_Fault_Handler  retarget.o
+    0x0000269c   0x0000001c   Code   RO         2290    i.MCU_SPIReadWrite  ft_gpu_hal.o
+    0x000026b8   0x00000004   Code   RO         1692    i.MainPage_ESD_Label_Font__Property  mainpage__generated.o
+    0x000026bc   0x00000008   Code   RO         1693    i.MainPage_ESD_Label_Text__Property  mainpage__generated.o
+    0x000026c4   0x0000005e   Code   RO         1694    i.MainPage_End      mainpage__generated.o
+    0x00002722   0x0000003a   Code   RO         1695    i.MainPage_Update   mainpage__generated.o
+    0x0000275c   0x0000001c   Code   RO         1696    i.MainPage_Update__Builtin  mainpage__generated.o
+    0x00002778   0x0000004c   Code   RO         1697    i.MainPage__ESD_Label__Initializer  mainpage__generated.o
+    0x000027c4   0x00000030   Code   RO         1698    i.MainPage__Fill_Display__Initializer  mainpage__generated.o
+    0x000027f4   0x00000038   Code   RO         1699    i.MainPage__Fixed_Positioning__Initializer  mainpage__generated.o
+    0x0000282c   0x0000003c   Code   RO         1700    i.MainPage__Ft_Esd_Layout_Horizontal__Initializer  mainpage__generated.o
+    0x00002868   0x00000034   Code   RO         1701    i.MainPage__Ft_Esd_Layout_Stretch_4__Initializer  mainpage__generated.o
+    0x0000289c   0x00000034   Code   RO         1702    i.MainPage__Ft_Esd_Layout_Stretch__Initializer  mainpage__generated.o
+    0x000028d0   0x00000032   Code   RO         1703    i.MainPage__Ft_Esd_Layout_Vertical__Initializer  mainpage__generated.o
+    0x00002902   0x00000002   PAD
+    0x00002904   0x00000068   Code   RO         1704    i.MainPage__Initializer  mainpage__generated.o
+    0x0000296c   0x00000044   Code   RO         1705    i.MainPage__button_left_move__Initializer  mainpage__generated.o
+    0x000029b0   0x00000044   Code   RO         1706    i.MainPage__button_right_move__Initializer  mainpage__generated.o
+    0x000029f4   0x00000008   Code   RO         1707    i.MainPage_button_left_move_Text__Property  mainpage__generated.o
+    0x000029fc   0x00000008   Code   RO         1708    i.MainPage_button_right_move_Text__Property  mainpage__generated.o
+    0x00002a04   0x00000024   Code   RO         2998    i.SPI_Close         spi.o
+    0x00002a28   0x0000001c   Code   RO            4    i.SPI_Init          main.o
+    0x00002a44   0x00000190   Code   RO         3008    i.SPI_Open          spi.o
+    0x00002bd4   0x00000098   Code   RO            5    i.SYS_Init          main.o
+    0x00002c6c   0x00000020   Code   RO         2582    i.SendChar_ToUART   retarget.o
+    0x00002c8c   0x00000090   Code   RO         2673    i.SystemCoreClockUpdate  system_m051series.o
+    0x00002d1c   0x00000002   Code   RO         2674    i.SystemInit        system_m051series.o
+    0x00002d1e   0x00000002   PAD
+    0x00002d20   0x00000020   Code   RO         3465    i.__0printf$5       mc_p.l(printf5.o)
+    0x00002d40   0x0000000e   Code   RO         3717    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x00002d4e   0x00000002   Code   RO         3718    i.__scatterload_null  mc_p.l(handlers.o)
+    0x00002d50   0x0000000e   Code   RO         3719    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x00002d5e   0x00000002   PAD
+    0x00002d60   0x000002dc   Code   RO         3472    i._printf_core      mc_p.l(printf5.o)
+    0x0000303c   0x0000000c   Code   RO         2586    i.fputc             retarget.o
+    0x00003048   0x00000054   Code   RO         3593    i.free              mc_p.l(malloc.o)
+    0x0000309c   0x00000054   Code   RO          227    i.loop              ft_esd_app.o
+    0x000030f0   0x00000018   Code   RO            6    i.main              main.o
+    0x00003108   0x0000006c   Code   RO         3594    i.malloc            mc_p.l(malloc.o)
+    0x00003174   0x000000a8   Code   RO         2588    i.stackDump         retarget.o
+    0x0000321c   0x0000000c   Data   RO          230    .constdata          ft_esd_app.o
+    0x00003228   0x00000010   Data   RO          392    .constdata          ft_esd_dl.o
+    0x00003238   0x00000020   Data   RO         2675    .constdata          system_m051series.o
+    0x00003258   0x00000020   Data   RO         3715    Region$$Table       anon$$obj.o
+
+
+    Execution Region ER_RW (Base: 0x20000000, Size: 0x00000204, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x0000001c   Data   RW          186    .data               ft_esd_theme.o
+    0x2000001c   0x00000040   Data   RW          231    .data               ft_esd_app.o
+    0x2000005c   0x00000004   Data   RW          232    .data               ft_esd_app.o
+    0x20000060   0x00000004   Data   RW          233    .data               ft_esd_app.o
+    0x20000064   0x00000001   Data   RW          234    .data               ft_esd_app.o
+    0x20000065   0x00000003   PAD
+    0x20000068   0x00000008   Data   RW          298    .data               ft_esd_mainloop.o
+    0x20000070   0x00000004   Data   RW          337    .data               ft_esd_cocmd.o
+    0x20000074   0x00000018   Data   RW          393    .data               ft_esd_dl.o
+    0x2000008c   0x00000004   Data   RW          507    .data               ft_esd_timer.o
+    0x20000090   0x00000024   Data   RW          584    .data               ft_esd_widget.o
+    0x200000b4   0x00000038   Data   RW          811    .data               ft_esd_touchtag.o
+    0x200000ec   0x00000020   Data   RW          972    .data               ft_esd_layout_fixed.o
+    0x2000010c   0x00000020   Data   RW         1007    .data               ft_esd_layout_display.o
+    0x2000012c   0x00000020   Data   RW         1043    .data               ft_esd_layout_linear.o
+    0x2000014c   0x00000020   Data   RW         1078    .data               ft_esd_layout_stretch__generated.o
+    0x2000016c   0x00000020   Data   RW         1100    .data               ft_esd_label__generated.o
+    0x2000018c   0x00000020   Data   RW         1448    .data               ft_esd_pushbutton__generated.o
+    0x200001ac   0x00000020   Data   RW         1633    .data               appscreen__generated.o
+    0x200001cc   0x00000020   Data   RW         1709    .data               mainpage__generated.o
+    0x200001ec   0x00000004   Data   RW         2589    .data               retarget.o
+    0x200001f0   0x0000000c   Data   RW         2676    .data               system_m051series.o
+    0x200001fc   0x00000004   Data   RW         3677    .data               mc_p.l(mvars.o)
+    0x20000200   0x00000004   Data   RW         3678    .data               mc_p.l(mvars.o)
+
+
+    Execution Region ER_ZI (Base: 0x20000204, Size: 0x00000954, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000204   0x00000464   Zero   RW          229    .bss                ft_esd_app.o
+    0x20000668   0x00000074   Zero   RW          391    .bss                ft_esd_dl.o
+    0x200006dc   0x00000028   Zero   RW          506    .bss                ft_esd_timer.o
+    0x20000704   0x00000050   Zero   RW         1550    .bss                app__generated.o
+    0x20000754   0x00000004   PAD
+    0x20000758   0x00000000   Zero   RW         2665    HEAP                startup_m051series.o
+    0x20000758   0x00000400   Zero   RW         2664    STACK               startup_m051series.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       232         30          0          0         80       6786   app__generated.o
+       240         10          0         32          0       4157   appscreen__generated.o
+       788        100          0          0          0      57429   clk.o
+       354          0          0          0          0       9443   ft_copro_cmds.o
+         2          0          0          0          0        434   ft_esd.o
+       804        146         12         73       1124       5593   ft_esd_app.o
+        64         16          0          4          0       3163   ft_esd_cocmd.o
+       332         72         16         24        116       5271   ft_esd_dl.o
+       316          0          0          0          0       3713   ft_esd_gpualloc.o
+       560         62          0         32          0      15653   ft_esd_label__generated.o
+         0          0          0          0          0       1603   ft_esd_labelbutton__generated.o
+       120         16          0         32          0       3321   ft_esd_layout_display.o
+       124          8          0         32          0       3144   ft_esd_layout_fixed.o
+      1398         16          0         32          0       8956   ft_esd_layout_linear.o
+        44         10          0         32          0       1129   ft_esd_layout_stretch__generated.o
+       384         58          0          8          0       6449   ft_esd_mainloop.o
+        86          0          0          0          0       1791   ft_esd_math.o
+       556         76          0         32          0      11637   ft_esd_pushbutton__generated.o
+        12          6          0         28          0       1120   ft_esd_theme.o
+       180         22          0          4         40       3023   ft_esd_timer.o
+       378         40          0         56          0       4600   ft_esd_touchtag.o
+      1110         60          0         36          0      22970   ft_esd_widget.o
+       984         68          0          0          0      16926   ft_gpu_hal.o
+        40          0          0          0          0       1023   gpio.o
+       256         36          0          0          0      37680   main.o
+       842         44          0         32          0      14247   mainpage__generated.o
+       280        132          0          4          0       4246   retarget.o
+       524         34          0          0          0       3043   spi.o
+        76         32        192          0       1024        612   startup_m051series.o
+       146         28         32         12          0       8295   system_m051series.o
+
+    ----------------------------------------------------------------------
+     11260       1122        284        508       2388     267457   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+        28          0          0          3          4          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        40          0          0          0          0         72   idiv.o
+        36          8          0          0          0         68   init.o
+        32          0          0          0          0         68   llshl.o
+        34          0          0          0          0         68   llushr.o
+       192         20          0          0          0        144   malloc.o
+        36          0          0          0          0         60   memcpya.o
+        36          0          0          0          0        100   memseta.o
+         0          0          0          8          0          0   mvars.o
+       764         52          0          0          0        168   printf5.o
+        14          0          0          0          0         60   strlen.o
+        44          0          0          0          0         72   uidiv.o
+        96          0          0          0          0         84   uldiv.o
+
+    ----------------------------------------------------------------------
+      1376         88          0          8          0        964   Library Totals
+         2          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+      1374         88          0          8          0        964   mc_p.l
+
+    ----------------------------------------------------------------------
+      1376         88          0          8          0        964   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+     12636       1210        284        516       2388     259809   Grand Totals
+     12636       1210        284        516       2388     259809   ELF Image Totals
+     12636       1210        284        516          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                12920 (  12.62kB)
+    Total RW  Size (RW Data + ZI Data)              2904 (   2.84kB)
+    Total ROM Size (Code + RO Data + RW Data)      13436 (  13.12kB)
+
+==============================================================================
+
